@@ -247,24 +247,19 @@ Contains mode shape contours, load-deflection results, and other validation figu
 
 ---
 
-## 11. Running the APDL Script
+## 11. Running the APDL Script#
 
-1. Open **ANSYS Mechanical APDL**.
-2. Set the working directory to the repository location.
-3. Open the APDL command interface.
-4. Read the input file:
+The finite element validation pipeline is split into two sequential ANSYS APDL macro scripts:
 
-```text
-ansys_apdl_script.txt
-```
+### Phase 1: Linear Eigenvalue Buckling Analysis
+1. Open **ANSYS Mechanical APDL Interactive**.
+2. Set your working directory to the repository folder.
+3. Select **File → Read Input From...** and choose `01_linear_eigenvalue_buckling.txt` (or type `/INPUT, '01_linear_eigenvalue_buckling', 'txt'` in the APDL command bar).
+* **Action:** Defines orthotropic materials, $[\pm75/\pm55/\pm89.6]_{FW}$ section angles, builds geometry, applies the $108 \times 45$ mesh, applies the $894.43\text{ N}$ nodal force bypass, and solves `ANTYPE, BUCKLE`.*
 
-Alternatively, use:
-
-```text
-File → Read Input From...
-```
-
-and select `ansys_apdl_script.txt`.
+### Phase 2: Nonlinear Arc-Length (Riks) Analysis
+1. In APDL, select **File → Read Input From...** and choose `02_nonlinear_riks_analysis.txt` (or type `/INPUT, '02_nonlinear_riks_analysis', 'txt'` in the APDL command bar).
+* **Action:** Builds upper and lower rigid compression plates, creates contact pairs (`CONTA175`/`TARGE170` with $\mu = 0.01$), activates large deflection arc-length stepping (`ARCLEN, ON`), and extracts POST26 time-history reaction forces vs. axial displacement.*
 
 The macro performs the main stages of the analysis, including:
 
