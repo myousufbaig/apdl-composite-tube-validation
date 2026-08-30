@@ -1,0 +1,7261 @@
+/BATCH  
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       23:46:14  
+/input,start,ans,'D:\ANSYS Inc\ANSYS Student\v252\ANSYS\apdl\'  
+!*  
+/NOPR   
+KEYW,PR_SET,1   
+KEYW,PR_STRUC,1 
+KEYW,PR_THERM,0 
+KEYW,PR_FLUID,0 
+KEYW,PR_ELMAG,0 
+KEYW,MAGNOD,0   
+KEYW,MAGEDG,0   
+KEYW,MAGHFE,0   
+KEYW,MAGELC,0   
+KEYW,PR_MULTI,0 
+/GO 
+!*  
+! /COM,   
+! /COM,Preferences for GUI filtering have been set to display:
+! /COM,  Structural   
+!*  
+/PREP7  
+!*  
+ET,1,SHELL181   
+!*  
+!*  
+MPTEMP,,,,,,,,  
+MPTEMP,1,0  
+MPDATA,EX,1,,129800 
+MPDATA,EY,1,,9100   
+MPDATA,EZ,1,,9100   
+MPDATA,PRXY,1,,0.31 
+MPDATA,PRYZ,1,,0.31 
+MPDATA,PRXZ,1,,0.02 
+MPDATA,GXY,1,,5440  
+MPDATA,GYZ,1,,5440  
+MPDATA,GXZ,1,,5440  
+!*  
+sect,1,shell,,  
+secdata, 1.56,1,0.0,3   
+secoffset,MID   
+seccontrol,,,, , , ,
+CYLIND,68, ,0,323,0,360,
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+VDELE,       1  
+! APLOT   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,2,2,5,ORDE,2   
+FITEM,2,1   
+FITEM,2,-2  
+ADELE,P51X  
+! /REPLOT 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! APLOT   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,2,2,5,ORDE,2   
+FITEM,2,3   
+FITEM,2,-4  
+ADELE,P51X, , ,1
+! APLOT   
+! APLOT   
+! /REPLOT 
+! VPLOT   
+! EPLOT   
+CYLIND,68, ,0,323,0,360,
+VDELE,       1  
+! APLOT   
+ADELE,       1  
+! APLOT   
+! /REPLOT 
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+ADELE,       2  
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! SAVE, file,db,
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       00:11:51  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+FLST,5,2,4,ORDE,2   
+FITEM,5,9   
+FITEM,5,-10 
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,108, , , , ,1
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,5   
+FITEM,5,-8  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,11, , , , ,1 
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,5   
+FITEM,5,-8  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,11, , , , ,1 
+!*  
+MSHKEY,0
+FLST,5,2,5,ORDE,2   
+FITEM,5,3   
+FITEM,5,-4  
+CM,_Y,AREA  
+ASEL, , , ,P51X 
+CM,_Y1,AREA 
+CHKMSH,'AREA'   
+CMSEL,S,_Y  
+!*  
+AMESH,_Y1   
+!*  
+CMDELE,_Y   
+CMDELE,_Y1  
+CMDELE,_Y2  
+!*  
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! SAVE, file,db,
+! /REPLOT,RESIZE  
+FLST,2,44,1,ORDE,5  
+FITEM,2,14  
+FITEM,2,122 
+FITEM,2,-143
+FITEM,2,2062
+FITEM,2,-2082   
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,24,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-13 
+FITEM,2,2051
+FITEM,2,-2061   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+! /REPLOT,RESIZE  
+FLST,2,26,1,ORDE,6  
+FITEM,2,1   
+FITEM,2,-13 
+FITEM,2,15  
+FITEM,2,144 
+FITEM,2,2051
+FITEM,2,-2061   
+!*  
+/GO 
+F,P51X,FZ,2366.22   
+!*  
+ANTYPE,0
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       00:37:58  
+! /REPLOT,RESIZE  
+FINISH  
+/PREP7  
+sect,1,shell,,  
+secdata, 0.27 ,1,75,3   
+secdata, 0.27,1,-75,3   
+secdata, 0.28 ,1,55,3   
+secdata, 0.28 ,1,-55,3  
+secdata, 0.23,1,89.6,3  
+secdata, 0.23,1,-89.6,3 
+secoffset,MID   
+seccontrol,0,0,0, 0, 1, 1, 1
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       02:19:07  
+sect,1,shell,,  
+secdata, 0.27,1,75,3
+secdata, 0.27,1,-75,3   
+secdata, 0.28,1,55,3
+secdata, 0.28,1,-55,3   
+secdata, 0.23,1,89.6,3  
+secdata, 0.23,1,-89.6,3 
+secoffset,MID   
+seccontrol,0,0,0, 0, 1, 1, 1
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,0
+!*  
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+BUCOPT,LANB,1,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/PREP7  
+LSCLEAR,ALL 
+FLST,2,3966,1,ORDE,2
+FITEM,2,1   
+FITEM,2,-3966   
+NROTAT,P51X 
+FLST,2,57,1,ORDE,16 
+FITEM,2,14  
+FITEM,2,120 
+FITEM,2,-143
+FITEM,2,249 
+FITEM,2,-250
+FITEM,2,498 
+FITEM,2,1351
+FITEM,2,1435
+FITEM,2,-1436   
+FITEM,2,2062
+FITEM,2,-2082   
+FITEM,2,2237
+FITEM,2,2319
+FITEM,2,2334
+FITEM,2,3199
+FITEM,2,3284
+!*  
+/GO 
+D,P51X,UX, , , , ,UY,UZ,ROTX,ROTZ, ,
+LSCLEAR,ALL 
+FLST,2,57,1,ORDE,16 
+FITEM,2,14  
+FITEM,2,120 
+FITEM,2,-143
+FITEM,2,249 
+FITEM,2,-250
+FITEM,2,498 
+FITEM,2,1351
+FITEM,2,1435
+FITEM,2,-1436   
+FITEM,2,2062
+FITEM,2,-2082   
+FITEM,2,2237
+FITEM,2,2319
+FITEM,2,2334
+FITEM,2,3199
+FITEM,2,3284
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,UZ,ROTX,ROTZ, ,
+LSCLEAR,ALL 
+! /REPLOT 
+FLST,2,47,1,ORDE,7  
+FITEM,2,14  
+FITEM,2,121 
+FITEM,2,-143
+FITEM,2,250 
+FITEM,2,1435
+FITEM,2,2062
+FITEM,2,-2082   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,UZ,ROTX,ROTZ, ,
+FLST,2,26,1,ORDE,6  
+FITEM,2,1   
+FITEM,2,-13 
+FITEM,2,15  
+FITEM,2,144 
+FITEM,2,2051
+FITEM,2,-2061   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTZ, , , 
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       02:59:46  
+FINISH  
+/PREP7  
+FLST,2,2,5,ORDE,2   
+FITEM,2,3   
+FITEM,2,-4  
+ACLEAR,P51X 
+! /REPLOT 
+! APLOT   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+FLST,5,2,4,ORDE,2   
+FITEM,5,9   
+FITEM,5,-10 
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1,108, , , , , , ,1
+!*  
+FLST,5,4,4,ORDE,2   
+FITEM,5,5   
+FITEM,5,-8  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1,45, , , , , , ,1 
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,1   
+FITEM,5,-4  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1,45, , , , , , ,1 
+!*  
+MSHKEY,0
+FLST,5,2,5,ORDE,2   
+FITEM,5,3   
+FITEM,5,-4  
+CM,_Y,AREA  
+ASEL, , , ,P51X 
+CM,_Y1,AREA 
+CHKMSH,'AREA'   
+CMSEL,S,_Y  
+!*  
+AMESH,_Y1   
+!*  
+CMDELE,_Y   
+CMDELE,_Y1  
+CMDELE,_Y2  
+!*  
+!*  
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+FLST,2,56,1,ORDE,2  
+FITEM,2,1   
+FITEM,2,-56 
+NROTAT,P51X 
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTZ, , , 
+FLST,2,12,1,ORDE,5  
+FITEM,2,8   
+FITEM,2,11  
+FITEM,2,-16 
+FITEM,2,38  
+FITEM,2,-42 
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,UZ,ROTX,ROTZ, ,
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+F,P51X,FZ,2366.22   
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+MXPAND,5,0,0,0,0.001,   
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+FLST,2,56,1,ORDE,2  
+FITEM,2,1   
+FITEM,2,-56 
+FDELE,P51X,ALL  
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+F,P51X,FZ,591.55
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+LOCAL, 11, 1, 0,0,0, 0,0,-90
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+TYPE,   1   
+MAT,       1
+REAL,   
+ESYS,       0   
+SECNUM,   1 
+!*  
+! /REPLOT,RESIZE  
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/PREP7  
+CSYS, 0 
+NROTAT, ALL 
+LSCLEAR,ALL 
+FLST,2,12,1,ORDE,5  
+FITEM,2,8   
+FITEM,2,11  
+FITEM,2,-16 
+FITEM,2,38  
+FITEM,2,-42 
+FLST,2,12,1,ORDE,5  
+FITEM,2,8   
+FITEM,2,11  
+FITEM,2,-16 
+FITEM,2,38  
+FITEM,2,-42 
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+F,P51X,FZ,2366.22   
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+!*  
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+FLST,2,56,1,ORDE,2  
+FITEM,2,1   
+FITEM,2,-56 
+FDELE,P51X,ALL  
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+F,P51X,FZ,591.55
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+ANTYPE,1
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+FLST,2,2,5,ORDE,2   
+FITEM,2,3   
+FITEM,2,-4  
+ACLEAR,P51X 
+FLST,2,10,4,ORDE,2  
+FITEM,2,1   
+FITEM,2,-10 
+LCLEAR,P51X 
+FLST,2,8,3,ORDE,2   
+FITEM,2,1   
+FITEM,2,-8  
+KCLEAR,P51X 
+! /REPLOT 
+! APLOT   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,2,4,ORDE,2   
+FITEM,5,9   
+FITEM,5,-10 
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,108, , , , ,1
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,1   
+FITEM,5,-4  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,45, , , , ,1 
+!*  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,5   
+FITEM,5,-8  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,45, , , , ,1 
+!*  
+MSHKEY,0
+FLST,5,2,5,ORDE,2   
+FITEM,5,3   
+FITEM,5,-4  
+CM,_Y,AREA  
+ASEL, , , ,P51X 
+CM,_Y1,AREA 
+CHKMSH,'AREA'   
+CMSEL,S,_Y  
+!*  
+AMESH,_Y1   
+!*  
+CMDELE,_Y   
+CMDELE,_Y1  
+CMDELE,_Y2  
+!*  
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+sect,1,shell,,  
+secdata, 0.27,1,75,3
+secdata, 0.27,1,-75,3   
+secdata, 0.28,1,55,3
+secdata, 0.28,1,-55,3   
+secdata, 0.23,1,89.6,3  
+secdata, 0.23,1,-89.6,3 
+secoffset,MID   
+seccontrol,0,0,0, 0, 1, 1, 1
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       05:50:01  
+/SOLU   
+LSCLEAR,ALL 
+FLST,2,180,1,ORDE,4 
+FITEM,2,1   
+FITEM,2,-91 
+FITEM,2,8553
+FITEM,2,-8641   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+FLST,2,180,1,ORDE,5 
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,8642
+FITEM,2,-8730   
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,180,1,ORDE,4 
+FITEM,2,1   
+FITEM,2,-91 
+FITEM,2,8553
+FITEM,2,-8641   
+!*  
+/GO 
+F,P51X,FZ,894.43
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+!*  
+FINISH  
+/POST1  
+SET,LIST
+SET,FIRST   
+! PLDISP,1
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+SET,NEXT
+! PLDISP,1
+SET,NEXT
+! PLDISP,1
+SET,LIST
+SET,LAST
+SET,LIST,999
+SET,,, ,,, ,5   
+! PLDISP,1
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! LGWRITE,'midterm_script','txt ','D:\fea-mid\new\',COMMENT 
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       20:39:02  
+/SOLU   
+FLST,2,1,1,ORDE,1   
+FITEM,2,7050
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/PREP7  
+FLST,2,16928,1,ORDE,2   
+FITEM,2,1   
+FITEM,2,-16928  
+FDELE,P51X,ALL  
+FLST,2,180,1,ORDE,4 
+FITEM,2,1   
+FITEM,2,-91 
+FITEM,2,8553
+FITEM,2,-8641   
+!*  
+/GO 
+F,P51X,FZ,894.43
+!*  
+ANTYPE,0
+FINISH  
+/SOL
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+!*  
+EXPASS,1
+MXPAND,5,0,0,0,0.001,   
+! /STATUS,SOLU
+SOLVE   
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+! PLDISP,1
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+SET,LIST,999
+SET,,, ,,, ,10  
+! PLDISP,1
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /ZOOM,1,BACK
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,1,1   
+! /ANG,1  
+! /REP,FAST   
+!*  
+! PLDI,1, 
+ANMODE,10,0.5, ,0   
+!*  
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,-1
+! /ANG,1  
+! /REP,FAST   
+SET,LIST,999
+SET,,, ,,, ,7   
+! PLDISP,1
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,1,1   
+! /ANG,1  
+! /REP,FAST   
+!*  
+! PLDI,1, 
+ANMODE,10,0.5, ,0   
+!*  
+!*  
+! /EFACET,1   
+! PLNSOL, U,SUM, 0,1.0
+!*  
+! PLDI,1, 
+ANMODE,10,0.5, ,0   
+!*  
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,-1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+!*  
+! PLDI,1, 
+ANMODE,10,0.5, ,0   
+!*  
+! /VIEW,1,1,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,-1 
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+! /EFACET,1   
+! PLNSOL, U,SUM, 0,1.0
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+!*  
+! PLDI,1, 
+ANMODE,10,0.5, ,0   
+!*  
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! EMODIF, ALL, ESYS, 11 
+! EMODIF, ALL, ESYS, 11 
+FINISH  
+/PREP7  
+EMODIF, ALL, ESYS, 11   
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+!*  
+!*  
+!*  
+EXPASS,0
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+MXPAND,5,0,0,0,0.001,   
+!*  
+EXPASS,1
+MXPAND,5,0,0,0,0.001,   
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+SET,LAST
+!*  
+! /EFACET,1   
+! PLNSOL, U,SUM, 0,1.0
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+SET,LIST,999
+SET,,, ,,, ,1   
+!*  
+! /EFACET,1   
+! PLNSOL, U,SUM, 0,1.0
+! PLNSOL,U,Z  
+!*  
+ANCNTR,10,0.5   
+!*  
+! /CONT,1,9,AUTO  
+! /REPLOT 
+!*  
+!*  
+! /EFACET,1   
+! PLNSOL, U,SUM, 0,1.0
+!*  
+! PLDI,1, 
+ANMODE,10,0.5, ,0   
+!*  
+! /DSCALE, 1, 10  
+!*  
+! /EFACET,1   
+! PLNSOL, U,SUM, 0,1.0
+!*  
+! /EFACET,1   
+! PLNSOL, U,SUM, 0,1.0
+!*  
+! PLDI,1, 
+ANMODE,30,0.5, ,1   
+!*  
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+FINISH  
+/SOL
+LSCLEAR,ALL 
+! /REPLOT 
+FINISH  
+/PREP7  
+CYL4,0,0,75 
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+ADELE,       1  
+! /REPLOT 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+RECTNG,75,-75,75,-75,   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,3,1,5,ORDE,1   
+FITEM,3,1   
+AGEN,2,P51X, , , , ,323, ,0 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,2,2,5,ORDE,2   
+FITEM,2,1   
+FITEM,2,-2  
+ADELE,P51X  
+! /REPLOT 
+!*  
+ET,2,SHELL181   
+!*  
+!*  
+MPTEMP,,,,,,,,  
+MPTEMP,1,0  
+MPDATA,EX,2,,200000 
+MPDATA,PRXY,2,,0.3  
+!*  
+RECTNG,75,-75,75,-75,   
+FLST,3,1,5,ORDE,1   
+FITEM,3,1   
+AGEN,2,P51X, , , , ,323, ,0 
+! /VIEW,1,,,-1
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+TYPE,   2   
+MAT,       1
+REAL,   
+ESYS,       0   
+SECNUM,   1 
+!*  
+MSHKEY,0
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,2,5,ORDE,2   
+FITEM,5,1   
+FITEM,5,-2  
+CM,_Y,AREA  
+ASEL, , , ,P51X 
+CM,_Y1,AREA 
+CHKMSH,'AREA'   
+CMSEL,S,_Y  
+!*  
+AMESH,_Y1   
+!*  
+CMDELE,_Y   
+CMDELE,_Y1  
+CMDELE,_Y2  
+!*  
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+N, ,0,0,0,,,,   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+N, ,0,0,323,,,, 
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+NSEL,S,LOC,X,0  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! NPLOT   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /VIEW,1,,-1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,-1
+! /ANG,1  
+! /REP,FAST   
+! /REPLOT 
+! APLOT   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,6,1,ORDE,6   
+FITEM,5,2   
+FITEM,5,200 
+FITEM,5,8553
+FITEM,5,8642
+FITEM,5,16961   
+FITEM,5,-16962  
+CM,_NODECM,NODE 
+*SET,_z1,   16961   
+NSEL,S, , ,P51X 
+NSEL,A, , ,_Z1  
+CM,_CERGCM,NODE 
+CMSEL,S,_NODECM 
+!*  
+CMSEL,S,_CERGCM 
+CERIG,16961,ALL,ALL, , , ,  
+CMSEL,S,_NODECM 
+!*  
+CEDELE, ALL 
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,6,1,ORDE,6   
+FITEM,5,2   
+FITEM,5,200 
+FITEM,5,8553
+FITEM,5,8642
+FITEM,5,16961   
+FITEM,5,-16962  
+CM,_NODECM,NODE 
+*SET,_z1,   16961   
+NSEL,S, , ,P51X 
+NSEL,A, , ,_Z1  
+CM,_CERGCM,NODE 
+CMSEL,S,_NODECM 
+!*  
+CMSEL,S,_CERGCM 
+CERIG,16961,ALL,ALL, , , ,  
+CMSEL,S,_NODECM 
+!*  
+CEDELE, ALL 
+! NPLOT   
+! /REPLOT 
+! APLOT   
+FLST,5,6,1,ORDE,6   
+FITEM,5,2   
+FITEM,5,200 
+FITEM,5,8553
+FITEM,5,8642
+FITEM,5,16961   
+FITEM,5,-16962  
+CM,_NODECM,NODE 
+*SET,_z1,   16961   
+NSEL,S, , ,P51X 
+NSEL,A, , ,_Z1  
+CM,_CERGCM,NODE 
+CMSEL,S,_NODECM 
+!*  
+CMSEL,S,_CERGCM 
+CERIG,16961,ALL,ALL, , , ,  
+CMSEL,S,_NODECM 
+!*  
+CEDELE, ALL 
+N, 999999, 0, 0, 0  
+NSEL, S, LOC, Z, 0  
+NSEL, A, NODE, , 999999 
+CERIG, 999999, ALL, UXYZ
+N, 999998, 0, 0, 323
+NSEL, S, LOC, Z, 323
+NSEL, A, NODE, , 999998 
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+CERIG, 999998, ALL, UXYZ
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+ALLSEL  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /MREP,EPLOT 
+! SAVE, file,db,
+! SAVE, file,db,
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /DIST,1,1.37174211248,1 
+! /REP,FAST   
+! /DIST,1,1.37174211248,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+!*  
+!*  
+MP, MU, 1, 0.01 
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,-1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /REPLOT 
+! APLOT   
+! /DIST,1,1.37174211248,1 
+! /REP,FAST   
+! /DIST,1,1.37174211248,1 
+! /REP,FAST   
+!*  
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+!*  
+! /COM, CONTACT PAIR CREATION - START 
+CM,_NODECM,NODE 
+CM,_ELEMCM,ELEM 
+CM,_KPCM,KP 
+CM,_LINECM,LINE 
+CM,_AREACM,AREA 
+CM,_VOLUCM,VOLU 
+! /GSAV,cwz,gsav,,temp
+MP,MU,1,0.01
+MAT,1   
+R,3 
+REAL,3  
+ET,3,170
+ET,4,175
+KEYOPT,4,9,0
+KEYOPT,4,10,0   
+R,3,
+RMORE,  
+RMORE,,0
+RMORE,0 
+! Generate the target surface   
+ASEL,S,,,1  
+ASEL,A,,,2  
+CM,_TARGET,AREA 
+TYPE,3  
+NSLA,S,1
+ESLN,S,0
+ESLL,U  
+ESEL,U,ENAME,,188,189   
+NSLE,A,CT2  
+ESURF   
+CMSEL,S,_ELEMCM 
+! Generate the contact surface  
+NSEL,NONE   
+NSEL,A,,,1  
+NSEL,A,,,2  
+NSEL,A,,,3  
+NSEL,A,,,4  
+NSEL,A,,,5  
+NSEL,A,,,6  
+NSEL,A,,,7  
+NSEL,A,,,8  
+NSEL,A,,,9  
+NSEL,A,,,10 
+NSEL,A,,,11 
+NSEL,A,,,12 
+NSEL,A,,,13 
+NSEL,A,,,14 
+NSEL,A,,,15 
+NSEL,A,,,16 
+NSEL,A,,,17 
+NSEL,A,,,18 
+NSEL,A,,,19 
+NSEL,A,,,20 
+NSEL,A,,,21 
+NSEL,A,,,22 
+NSEL,A,,,23 
+NSEL,A,,,24 
+NSEL,A,,,25 
+NSEL,A,,,26 
+NSEL,A,,,27 
+NSEL,A,,,28 
+NSEL,A,,,29 
+NSEL,A,,,30 
+NSEL,A,,,31 
+NSEL,A,,,32 
+NSEL,A,,,33 
+NSEL,A,,,34 
+NSEL,A,,,35 
+NSEL,A,,,36 
+NSEL,A,,,37 
+NSEL,A,,,38 
+NSEL,A,,,39 
+NSEL,A,,,40 
+NSEL,A,,,41 
+NSEL,A,,,42 
+NSEL,A,,,43 
+NSEL,A,,,44 
+NSEL,A,,,45 
+NSEL,A,,,46 
+NSEL,A,,,47 
+NSEL,A,,,48 
+NSEL,A,,,49 
+NSEL,A,,,50 
+NSEL,A,,,51 
+NSEL,A,,,52 
+NSEL,A,,,53 
+NSEL,A,,,54 
+NSEL,A,,,55 
+NSEL,A,,,56 
+NSEL,A,,,57 
+NSEL,A,,,58 
+NSEL,A,,,59 
+NSEL,A,,,60 
+NSEL,A,,,61 
+NSEL,A,,,62 
+NSEL,A,,,63 
+NSEL,A,,,64 
+NSEL,A,,,65 
+NSEL,A,,,66 
+NSEL,A,,,67 
+NSEL,A,,,68 
+NSEL,A,,,69 
+NSEL,A,,,70 
+NSEL,A,,,71 
+NSEL,A,,,72 
+NSEL,A,,,73 
+NSEL,A,,,74 
+NSEL,A,,,75 
+NSEL,A,,,76 
+NSEL,A,,,77 
+NSEL,A,,,78 
+NSEL,A,,,79 
+NSEL,A,,,80 
+NSEL,A,,,81 
+NSEL,A,,,82 
+NSEL,A,,,83 
+NSEL,A,,,84 
+NSEL,A,,,85 
+NSEL,A,,,86 
+NSEL,A,,,87 
+NSEL,A,,,88 
+NSEL,A,,,89 
+NSEL,A,,,90 
+NSEL,A,,,91 
+NSEL,A,,,92 
+NSEL,A,,,200
+NSEL,A,,,201
+NSEL,A,,,202
+NSEL,A,,,203
+NSEL,A,,,204
+NSEL,A,,,205
+NSEL,A,,,206
+NSEL,A,,,207
+NSEL,A,,,208
+NSEL,A,,,209
+NSEL,A,,,210
+NSEL,A,,,211
+NSEL,A,,,212
+NSEL,A,,,213
+NSEL,A,,,214
+NSEL,A,,,215
+NSEL,A,,,216
+NSEL,A,,,217
+NSEL,A,,,218
+NSEL,A,,,219
+NSEL,A,,,220
+NSEL,A,,,221
+NSEL,A,,,222
+NSEL,A,,,223
+NSEL,A,,,224
+NSEL,A,,,225
+NSEL,A,,,226
+NSEL,A,,,227
+NSEL,A,,,228
+NSEL,A,,,229
+NSEL,A,,,230
+NSEL,A,,,231
+NSEL,A,,,232
+NSEL,A,,,233
+NSEL,A,,,234
+NSEL,A,,,235
+NSEL,A,,,236
+NSEL,A,,,237
+NSEL,A,,,238
+NSEL,A,,,239
+NSEL,A,,,240
+NSEL,A,,,241
+NSEL,A,,,242
+NSEL,A,,,243
+NSEL,A,,,244
+NSEL,A,,,245
+NSEL,A,,,246
+NSEL,A,,,247
+NSEL,A,,,248
+NSEL,A,,,249
+NSEL,A,,,250
+NSEL,A,,,251
+NSEL,A,,,252
+NSEL,A,,,253
+NSEL,A,,,254
+NSEL,A,,,255
+NSEL,A,,,256
+NSEL,A,,,257
+NSEL,A,,,258
+NSEL,A,,,259
+NSEL,A,,,260
+NSEL,A,,,261
+NSEL,A,,,262
+NSEL,A,,,263
+NSEL,A,,,264
+NSEL,A,,,265
+NSEL,A,,,266
+NSEL,A,,,267
+NSEL,A,,,268
+NSEL,A,,,269
+NSEL,A,,,270
+NSEL,A,,,271
+NSEL,A,,,272
+NSEL,A,,,273
+NSEL,A,,,274
+NSEL,A,,,275
+NSEL,A,,,276
+NSEL,A,,,277
+NSEL,A,,,278
+NSEL,A,,,279
+NSEL,A,,,280
+NSEL,A,,,281
+NSEL,A,,,282
+NSEL,A,,,283
+NSEL,A,,,284
+NSEL,A,,,285
+NSEL,A,,,286
+NSEL,A,,,287
+NSEL,A,,,288
+NSEL,A,,,289
+NSEL,A,,,8553   
+NSEL,A,,,8554   
+NSEL,A,,,8555   
+NSEL,A,,,8556   
+NSEL,A,,,8557   
+NSEL,A,,,8558   
+NSEL,A,,,8559   
+NSEL,A,,,8560   
+NSEL,A,,,8561   
+NSEL,A,,,8562   
+NSEL,A,,,8563   
+NSEL,A,,,8564   
+NSEL,A,,,8565   
+NSEL,A,,,8566   
+NSEL,A,,,8567   
+NSEL,A,,,8568   
+NSEL,A,,,8569   
+NSEL,A,,,8570   
+NSEL,A,,,8571   
+NSEL,A,,,8572   
+NSEL,A,,,8573   
+NSEL,A,,,8574   
+NSEL,A,,,8575   
+NSEL,A,,,8576   
+NSEL,A,,,8577   
+NSEL,A,,,8578   
+NSEL,A,,,8579   
+NSEL,A,,,8580   
+NSEL,A,,,8581   
+NSEL,A,,,8582   
+NSEL,A,,,8583   
+NSEL,A,,,8584   
+NSEL,A,,,8585   
+NSEL,A,,,8586   
+NSEL,A,,,8587   
+NSEL,A,,,8588   
+NSEL,A,,,8589   
+NSEL,A,,,8590   
+NSEL,A,,,8591   
+NSEL,A,,,8592   
+NSEL,A,,,8593   
+NSEL,A,,,8594   
+NSEL,A,,,8595   
+NSEL,A,,,8596   
+NSEL,A,,,8597   
+NSEL,A,,,8598   
+NSEL,A,,,8599   
+NSEL,A,,,8600   
+NSEL,A,,,8601   
+NSEL,A,,,8602   
+NSEL,A,,,8603   
+NSEL,A,,,8604   
+NSEL,A,,,8605   
+NSEL,A,,,8606   
+NSEL,A,,,8607   
+NSEL,A,,,8608   
+NSEL,A,,,8609   
+NSEL,A,,,8610   
+NSEL,A,,,8611   
+NSEL,A,,,8612   
+NSEL,A,,,8613   
+NSEL,A,,,8614   
+NSEL,A,,,8615   
+NSEL,A,,,8616   
+NSEL,A,,,8617   
+NSEL,A,,,8618   
+NSEL,A,,,8619   
+NSEL,A,,,8620   
+NSEL,A,,,8621   
+NSEL,A,,,8622   
+NSEL,A,,,8623   
+NSEL,A,,,8624   
+NSEL,A,,,8625   
+NSEL,A,,,8626   
+NSEL,A,,,8627   
+NSEL,A,,,8628   
+NSEL,A,,,8629   
+NSEL,A,,,8630   
+NSEL,A,,,8631   
+NSEL,A,,,8632   
+NSEL,A,,,8633   
+NSEL,A,,,8634   
+NSEL,A,,,8635   
+NSEL,A,,,8636   
+NSEL,A,,,8637   
+NSEL,A,,,8638   
+NSEL,A,,,8639   
+NSEL,A,,,8640   
+NSEL,A,,,8641   
+NSEL,A,,,8642   
+NSEL,A,,,8643   
+NSEL,A,,,8644   
+NSEL,A,,,8645   
+NSEL,A,,,8646   
+NSEL,A,,,8647   
+NSEL,A,,,8648   
+NSEL,A,,,8649   
+NSEL,A,,,8650   
+NSEL,A,,,8651   
+NSEL,A,,,8652   
+NSEL,A,,,8653   
+NSEL,A,,,8654   
+NSEL,A,,,8655   
+NSEL,A,,,8656   
+NSEL,A,,,8657   
+NSEL,A,,,8658   
+NSEL,A,,,8659   
+NSEL,A,,,8660   
+NSEL,A,,,8661   
+NSEL,A,,,8662   
+NSEL,A,,,8663   
+NSEL,A,,,8664   
+NSEL,A,,,8665   
+NSEL,A,,,8666   
+NSEL,A,,,8667   
+NSEL,A,,,8668   
+NSEL,A,,,8669   
+NSEL,A,,,8670   
+NSEL,A,,,8671   
+NSEL,A,,,8672   
+NSEL,A,,,8673   
+NSEL,A,,,8674   
+NSEL,A,,,8675   
+NSEL,A,,,8676   
+NSEL,A,,,8677   
+NSEL,A,,,8678   
+NSEL,A,,,8679   
+NSEL,A,,,8680   
+NSEL,A,,,8681   
+NSEL,A,,,8682   
+NSEL,A,,,8683   
+NSEL,A,,,8684   
+NSEL,A,,,8685   
+NSEL,A,,,8686   
+NSEL,A,,,8687   
+NSEL,A,,,8688   
+NSEL,A,,,8689   
+NSEL,A,,,8690   
+NSEL,A,,,8691   
+NSEL,A,,,8692   
+NSEL,A,,,8693   
+NSEL,A,,,8694   
+NSEL,A,,,8695   
+NSEL,A,,,8696   
+NSEL,A,,,8697   
+NSEL,A,,,8698   
+NSEL,A,,,8699   
+NSEL,A,,,8700   
+NSEL,A,,,8701   
+NSEL,A,,,8702   
+NSEL,A,,,8703   
+NSEL,A,,,8704   
+NSEL,A,,,8705   
+NSEL,A,,,8706   
+NSEL,A,,,8707   
+NSEL,A,,,8708   
+NSEL,A,,,8709   
+NSEL,A,,,8710   
+NSEL,A,,,8711   
+NSEL,A,,,8712   
+NSEL,A,,,8713   
+NSEL,A,,,8714   
+NSEL,A,,,8715   
+NSEL,A,,,8716   
+NSEL,A,,,8717   
+NSEL,A,,,8718   
+NSEL,A,,,8719   
+NSEL,A,,,8720   
+NSEL,A,,,8721   
+NSEL,A,,,8722   
+NSEL,A,,,8723   
+NSEL,A,,,8724   
+NSEL,A,,,8725   
+NSEL,A,,,8726   
+NSEL,A,,,8727   
+NSEL,A,,,8728   
+NSEL,A,,,8729   
+NSEL,A,,,8730   
+NSEL,A,,,16929  
+NSEL,A,,,16930  
+NSEL,A,,,16931  
+NSEL,A,,,16932  
+NSEL,A,,,16933  
+NSEL,A,,,16934  
+NSEL,A,,,16935  
+NSEL,A,,,16936  
+NSEL,A,,,16937  
+NSEL,A,,,16938  
+NSEL,A,,,16939  
+NSEL,A,,,16940  
+NSEL,A,,,16941  
+NSEL,A,,,16942  
+NSEL,A,,,16943  
+NSEL,A,,,16944  
+NSEL,A,,,16945  
+NSEL,A,,,16946  
+NSEL,A,,,16947  
+NSEL,A,,,16948  
+NSEL,A,,,16949  
+NSEL,A,,,16950  
+NSEL,A,,,16951  
+NSEL,A,,,16952  
+NSEL,A,,,16953  
+NSEL,A,,,16954  
+NSEL,A,,,16955  
+NSEL,A,,,16956  
+NSEL,A,,,16957  
+NSEL,A,,,16958  
+NSEL,A,,,16959  
+NSEL,A,,,16960  
+NSEL,A,,,16961  
+NSEL,A,,,16962  
+NSEL,A,,,999998 
+NSEL,A,,,999999 
+CM,_CONTACT,NODE
+TYPE,4  
+ESLN,S,0
+ESURF   
+*SET,_REALID,3  
+ALLSEL  
+ESEL,ALL
+ESEL,S,TYPE,,3  
+ESEL,A,TYPE,,4  
+ESEL,R,REAL,,3  
+! /PSYMB,ESYS,1   
+! /PNUM,TYPE,1
+! /NUM,1  
+! EPLOT   
+ESEL,ALL
+ESEL,S,TYPE,,3  
+ESEL,A,TYPE,,4  
+ESEL,R,REAL,,3  
+CMSEL,A,_NODECM 
+CMDEL,_NODECM   
+CMSEL,A,_ELEMCM 
+CMDEL,_ELEMCM   
+CMSEL,S,_KPCM   
+CMDEL,_KPCM 
+CMSEL,S,_LINECM 
+CMDEL,_LINECM   
+CMSEL,S,_AREACM 
+CMDEL,_AREACM   
+CMSEL,S,_VOLUCM 
+CMDEL,_VOLUCM   
+! /GRES,cwz,gsav  
+CMDEL,_TARGET   
+CMDEL,_CONTACT  
+! /COM, CONTACT PAIR CREATION - END   
+! /MREP,EPLOT 
+! /VIEW,1,,,-1
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,-1
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+KEYOPT,4,1,0
+KEYOPT,4,2,0
+KEYOPT,4,3,0
+KEYOPT,4,4,0
+KEYOPT,4,5,0
+KEYOPT,4,6,0
+KEYOPT,4,7,0
+KEYOPT,4,8,0
+KEYOPT,4,9,0
+KEYOPT,4,10,0   
+KEYOPT,4,11,0   
+KEYOPT,4,12,0   
+KEYOPT,4,13,0   
+KEYOPT,4,15,0   
+KEYOPT,4,16,0   
+KEYOPT,4,18,1   
+!*  
+! SAVE, file,db,
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       23:50:14  
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! solve 
+/SOLVE  
+DDELE, ALL, ALL 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /DIST,1,0.729,1 
+! /REP,FAST   
+! /DIST,1,0.729,1 
+! /REP,FAST   
+FLST,2,1,1,ORDE,1   
+FITEM,2,16961   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+CEDELE, ALL 
+! NDELE, 16961  
+FINISH  
+/PREP7  
+NDELE, 16961
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+CEDELE, ALL 
+NDELE, 999999   
+NDELE, 999998   
+CEDELE, ALL 
+DDELE, ALL, ALL 
+N,999999,0,0,0,,,,  
+N,999998,0,0,323,,,,
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+CERIG, 999999, ALL, UXYZ
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /DIST,1,1.37174211248,1 
+! /REP,FAST   
+! /DIST,1,1.37174211248,1 
+! /REP,FAST   
+CEDELE, ALL 
+! /REPLOT 
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+N,999998,0,0,323,,,,
+N,999999,0,0,0,,,,  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /REPLOT 
+N,999999,0,0,0,,,,  
+! APLOT   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+CEDELE, ALL 
+N,999999,0,0,0,,,,  
+N,999999,0,0,323,,,,
+CEDELE, ALL 
+CEDELE, ALL 
+NDELE, 999999   
+NDELE, 999998   
+CEDELE, ALL 
+NDELE, 999999   
+NDELE, 999998   
+! /REPLOT 
+! NPLOT   
+! APLOT   
+N,999998,0,0,323,,,,
+N,999999,0,0,0,,,,  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,16943,1,ORDE,9   
+FITEM,5,1   
+FITEM,5,-16928  
+FITEM,5,16939   
+FITEM,5,-16944  
+FITEM,5,16955   
+FITEM,5,-16960  
+FITEM,5,16962   
+FITEM,5,999998  
+FITEM,5,-999999 
+NSEL,S, , ,P51X 
+CERIG, 999999, ALL, UXYZ
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+ALLSEL,ALL  
+NSEL,ALL
+FLST,5,16963,1,ORDE,5   
+FITEM,5,1   
+FITEM,5,-16960  
+FITEM,5,16962   
+FITEM,5,999998  
+FITEM,5,-999999 
+NSEL,U, , ,P51X 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+CEDELE, ALL 
+ESEL, S, MAT, , 2   
+NSLE, S 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+CEDELE, ALL 
+NDELE, 999999   
+NDELE, 999998   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+N,999999,0,0,0,,,,  
+N,999998,0,0,323,,,,
+! /REPLOT 
+! APLOT   
+! NPLOT   
+CEDELE, ALL 
+CEDELE, ALL 
+DDELE, ALL, ALL 
+NDELE, 999999   
+NDELE, 999998   
+ESEL, S, MAT, , 2   
+NSLE, S 
+! NPLOT   
+! NPLOT   
+! /REPLOT 
+! APLOT   
+N,999998,0,0,323,,,,
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+N,999999,0,0,0,,,,  
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       00:37:47  
+! APLOT   
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       00:39:26  
+CEDELE, ALL 
+DDELE, ALL, ALL 
+NDELE, 999999   
+NDELE, 999998   
+CEDELE, ALL 
+DDELE, ALL, ALL 
+NDELE, 999999   
+NDELE, 999998   
+! /REPLOT 
+! APLOT   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+N,999999,0,0,0,,,,  
+N,999998,0,0,323,,,,
+! SAVE, file,db,
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       00:46:21  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! APLOT   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,16963,1,ORDE,5   
+FITEM,5,1   
+FITEM,5,-16960  
+FITEM,5,16962   
+FITEM,5,999998  
+FITEM,5,-999999 
+NSEL,S, , ,P51X 
+! NPLOT   
+! CERIG, 999999, ALL, UXYZ  
+/PREP7  
+CERIG, 999999, ALL, UXYZ
+NSEL,ALL
+FLST,5,16963,1,ORDE,5   
+FITEM,5,1   
+FITEM,5,-16960  
+FITEM,5,16962   
+FITEM,5,999998  
+FITEM,5,-999999 
+NSEL,U, , ,P51X 
+! /REPLOT 
+! APLOT   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,16963,1,ORDE,5   
+FITEM,5,1   
+FITEM,5,-16960  
+FITEM,5,16962   
+FITEM,5,999998  
+FITEM,5,-999999 
+NSEL,S, , ,P51X 
+CERIG, 999998, ALL, UXYZ
+! APLOT   
+! EPLOT   
+! /REPLOT 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       02:09:10  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! CEDELE, ALL   
+/PREP7  
+CEDELE, ALL 
+CEDELE, ALL 
+v   
+ALLSEL, ALL 
+ESEL, S, MAT, , 2   
+NSLE, S, 1  
+NSLE, S, 1  
+! /REPLOT 
+ALLSEL, ALL 
+! EPLOT   
+! /AUTO,1 
+! /REP,FAST   
+! SAVE, file,db,
+! SAVE, file,db,
+ESEL, S, MAT, , 2   
+NSLE, S, 1  
+! NPLOT   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,-1 
+! /ANG,1  
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! EPLOT   
+! EPLOT   
+! APLOT   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+!*  
+ETDEL,4 
+!*  
+ETDEL,3 
+!*  
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+ESEL,S,MAT,,2   
+ESEL,S,MAT,,2   
+NSLE,S  
+! NPLOT   
+! /AUTO,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! /AUTO,1 
+! /REP,FAST   
+! EPLOT   
+! EPLOT   
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       04:15:49  
+/PREP7  
+! NPLOT   
+ALLSEL,ALL  
+! NPLOT   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+CEDELE, ALL 
+NDELE, 99999
+NDELE, 9999 
+NDELE, 999999   
+NDELE, 9999999  
+NDELE, 99999
+NDELE, 99999
+NDELE, 999999   
+NDELE, 99999
+NDELE, 999999   
+NDELE, 99999999 
+NDELE, 99998
+NDELE, 999998   
+NDELE, 9999998  
+ALLSEL, ALL 
+! /GRAPH, FULL
+! EPLOT   
+! /AUTO, 1
+! /REP
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! SAVE, file,db,
+N,99999,0,0,0,,,,   
+N,99998,0,0,323,,,, 
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       04:51:04  
+CEDELE, ALL 
+NDELE, 99999
+NDELE, 999999   
+NDELE, 99999
+NDELE, 9999 
+NDELE, 99999
+NDELE, 99998
+NDELE, 9998 
+NDELE, 999998   
+NDELE, 99998
+N,99998,0,0,323,,,, 
+N,99999,0,0,0,,,,   
+! SAVE, file,db,
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+FLST,5,198,1,ORDE,9 
+FITEM,5,92  
+FITEM,5,200 
+FITEM,5,-289
+FITEM,5,8642
+FITEM,5,-8730   
+FITEM,5,16945   
+FITEM,5,-16960  
+FITEM,5,16962   
+FITEM,5,99998   
+CM,_NODECM,NODE 
+*SET,_z1,   99998   
+NSEL,S, , ,P51X 
+NSEL,A, , ,_Z1  
+CM,_CERGCM,NODE 
+CMSEL,S,_NODECM 
+!*  
+CMSEL,S,_CERGCM 
+CERIG,99998,ALL,ALL, , , ,  
+CMSEL,S,_NODECM 
+!*  
+FLST,5,197,1,ORDE,7 
+FITEM,5,1   
+FITEM,5,-91 
+FITEM,5,8553
+FITEM,5,-8641   
+FITEM,5,16929   
+FITEM,5,-16944  
+FITEM,5,99999   
+CM,_NODECM,NODE 
+*SET,_z1,   99999   
+NSEL,S, , ,P51X 
+NSEL,A, , ,_Z1  
+CM,_CERGCM,NODE 
+CMSEL,S,_NODECM 
+!*  
+CMSEL,S,_CERGCM 
+CERIG,99999,ALL,ALL, , , ,  
+CMSEL,S,_NODECM 
+!*  
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       05:22:36  
+! CEDELE, ALL   
+/PREP7  
+CEDELE, ALL 
+! /REPLOT 
+FLST,2,193,1,ORDE,11
+FITEM,2,1   
+FITEM,2,-91 
+FITEM,2,8553
+FITEM,2,-8641   
+FITEM,2,16929   
+FITEM,2,-16932  
+FITEM,2,16934   
+FITEM,2,-16935  
+FITEM,2,16939   
+FITEM,2,-16944  
+FITEM,2,99999   
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,194,1,ORDE,9 
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,16949   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+!*  
+/GO 
+D,P51X,UX,-5, , , ,UY,ROTX,ROTY,ROTZ, , 
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,0
+!*  
+FINISH  
+/PREP7  
+!*  
+KEYOPT,4,1,0
+KEYOPT,4,2,0
+KEYOPT,4,3,0
+KEYOPT,4,4,0
+KEYOPT,4,5,0
+KEYOPT,4,6,0
+KEYOPT,4,7,0
+KEYOPT,4,8,0
+KEYOPT,4,9,0
+KEYOPT,4,10,0   
+KEYOPT,4,11,0   
+KEYOPT,4,12,0   
+KEYOPT,4,13,0   
+KEYOPT,4,15,0   
+KEYOPT,4,16,0   
+KEYOPT,4,18,1   
+!*  
+CWZDELE,3,1,''  
+! /MREP,EPLOT 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+!*  
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+!*  
+! /COM, CONTACT PAIR CREATION - START 
+CM,_NODECM,NODE 
+CM,_ELEMCM,ELEM 
+CM,_KPCM,KP 
+CM,_LINECM,LINE 
+CM,_AREACM,AREA 
+CM,_VOLUCM,VOLU 
+! /GSAV,cwz,gsav,,temp
+MP,MU,2,0.01
+MAT,2   
+R,4 
+REAL,4  
+ET,5,170
+ET,6,175
+KEYOPT,6,9,0
+KEYOPT,6,10,0   
+R,4,
+RMORE,  
+RMORE,,0
+RMORE,0 
+! Generate the target surface   
+ASEL,S,,,1  
+ASEL,A,,,2  
+CM,_TARGET,AREA 
+TYPE,5  
+NSLA,S,1
+ESLN,S,0
+ESLL,U  
+ESEL,U,ENAME,,188,189   
+NSLE,A,CT2  
+ESURF   
+CMSEL,S,_ELEMCM 
+! Generate the contact surface  
+NSEL,NONE   
+NSEL,A,,,1  
+NSEL,A,,,2  
+NSEL,A,,,3  
+NSEL,A,,,4  
+NSEL,A,,,5  
+NSEL,A,,,6  
+NSEL,A,,,7  
+NSEL,A,,,8  
+NSEL,A,,,9  
+NSEL,A,,,10 
+NSEL,A,,,11 
+NSEL,A,,,12 
+NSEL,A,,,13 
+NSEL,A,,,14 
+NSEL,A,,,15 
+NSEL,A,,,16 
+NSEL,A,,,17 
+NSEL,A,,,18 
+NSEL,A,,,19 
+NSEL,A,,,20 
+NSEL,A,,,21 
+NSEL,A,,,22 
+NSEL,A,,,23 
+NSEL,A,,,24 
+NSEL,A,,,25 
+NSEL,A,,,26 
+NSEL,A,,,27 
+NSEL,A,,,28 
+NSEL,A,,,29 
+NSEL,A,,,30 
+NSEL,A,,,31 
+NSEL,A,,,32 
+NSEL,A,,,33 
+NSEL,A,,,34 
+NSEL,A,,,35 
+NSEL,A,,,36 
+NSEL,A,,,37 
+NSEL,A,,,38 
+NSEL,A,,,39 
+NSEL,A,,,40 
+NSEL,A,,,41 
+NSEL,A,,,42 
+NSEL,A,,,43 
+NSEL,A,,,44 
+NSEL,A,,,45 
+NSEL,A,,,46 
+NSEL,A,,,47 
+NSEL,A,,,48 
+NSEL,A,,,49 
+NSEL,A,,,50 
+NSEL,A,,,51 
+NSEL,A,,,52 
+NSEL,A,,,53 
+NSEL,A,,,54 
+NSEL,A,,,55 
+NSEL,A,,,56 
+NSEL,A,,,57 
+NSEL,A,,,58 
+NSEL,A,,,59 
+NSEL,A,,,60 
+NSEL,A,,,61 
+NSEL,A,,,62 
+NSEL,A,,,63 
+NSEL,A,,,64 
+NSEL,A,,,65 
+NSEL,A,,,66 
+NSEL,A,,,67 
+NSEL,A,,,68 
+NSEL,A,,,69 
+NSEL,A,,,70 
+NSEL,A,,,71 
+NSEL,A,,,72 
+NSEL,A,,,73 
+NSEL,A,,,74 
+NSEL,A,,,75 
+NSEL,A,,,76 
+NSEL,A,,,77 
+NSEL,A,,,78 
+NSEL,A,,,79 
+NSEL,A,,,80 
+NSEL,A,,,81 
+NSEL,A,,,82 
+NSEL,A,,,83 
+NSEL,A,,,84 
+NSEL,A,,,85 
+NSEL,A,,,86 
+NSEL,A,,,87 
+NSEL,A,,,88 
+NSEL,A,,,89 
+NSEL,A,,,90 
+NSEL,A,,,91 
+NSEL,A,,,92 
+NSEL,A,,,200
+NSEL,A,,,201
+NSEL,A,,,202
+NSEL,A,,,203
+NSEL,A,,,204
+NSEL,A,,,205
+NSEL,A,,,206
+NSEL,A,,,207
+NSEL,A,,,208
+NSEL,A,,,209
+NSEL,A,,,210
+NSEL,A,,,211
+NSEL,A,,,212
+NSEL,A,,,213
+NSEL,A,,,214
+NSEL,A,,,215
+NSEL,A,,,216
+NSEL,A,,,217
+NSEL,A,,,218
+NSEL,A,,,219
+NSEL,A,,,220
+NSEL,A,,,221
+NSEL,A,,,222
+NSEL,A,,,223
+NSEL,A,,,224
+NSEL,A,,,225
+NSEL,A,,,226
+NSEL,A,,,227
+NSEL,A,,,228
+NSEL,A,,,229
+NSEL,A,,,230
+NSEL,A,,,231
+NSEL,A,,,232
+NSEL,A,,,233
+NSEL,A,,,234
+NSEL,A,,,235
+NSEL,A,,,236
+NSEL,A,,,237
+NSEL,A,,,238
+NSEL,A,,,239
+NSEL,A,,,240
+NSEL,A,,,241
+NSEL,A,,,242
+NSEL,A,,,243
+NSEL,A,,,244
+NSEL,A,,,245
+NSEL,A,,,246
+NSEL,A,,,247
+NSEL,A,,,248
+NSEL,A,,,249
+NSEL,A,,,250
+NSEL,A,,,251
+NSEL,A,,,252
+NSEL,A,,,253
+NSEL,A,,,254
+NSEL,A,,,255
+NSEL,A,,,256
+NSEL,A,,,257
+NSEL,A,,,258
+NSEL,A,,,259
+NSEL,A,,,260
+NSEL,A,,,261
+NSEL,A,,,262
+NSEL,A,,,263
+NSEL,A,,,264
+NSEL,A,,,265
+NSEL,A,,,266
+NSEL,A,,,267
+NSEL,A,,,268
+NSEL,A,,,269
+NSEL,A,,,270
+NSEL,A,,,271
+NSEL,A,,,272
+NSEL,A,,,273
+NSEL,A,,,274
+NSEL,A,,,275
+NSEL,A,,,276
+NSEL,A,,,277
+NSEL,A,,,278
+NSEL,A,,,279
+NSEL,A,,,280
+NSEL,A,,,281
+NSEL,A,,,282
+NSEL,A,,,283
+NSEL,A,,,284
+NSEL,A,,,285
+NSEL,A,,,286
+NSEL,A,,,287
+NSEL,A,,,288
+NSEL,A,,,289
+NSEL,A,,,8553   
+NSEL,A,,,8554   
+NSEL,A,,,8555   
+NSEL,A,,,8556   
+NSEL,A,,,8557   
+NSEL,A,,,8558   
+NSEL,A,,,8559   
+NSEL,A,,,8560   
+NSEL,A,,,8561   
+NSEL,A,,,8562   
+NSEL,A,,,8563   
+NSEL,A,,,8564   
+NSEL,A,,,8565   
+NSEL,A,,,8566   
+NSEL,A,,,8567   
+NSEL,A,,,8568   
+NSEL,A,,,8569   
+NSEL,A,,,8570   
+NSEL,A,,,8571   
+NSEL,A,,,8572   
+NSEL,A,,,8573   
+NSEL,A,,,8574   
+NSEL,A,,,8575   
+NSEL,A,,,8576   
+NSEL,A,,,8577   
+NSEL,A,,,8578   
+NSEL,A,,,8579   
+NSEL,A,,,8580   
+NSEL,A,,,8581   
+NSEL,A,,,8582   
+NSEL,A,,,8583   
+NSEL,A,,,8584   
+NSEL,A,,,8585   
+NSEL,A,,,8586   
+NSEL,A,,,8587   
+NSEL,A,,,8588   
+NSEL,A,,,8589   
+NSEL,A,,,8590   
+NSEL,A,,,8591   
+NSEL,A,,,8592   
+NSEL,A,,,8593   
+NSEL,A,,,8594   
+NSEL,A,,,8595   
+NSEL,A,,,8596   
+NSEL,A,,,8597   
+NSEL,A,,,8598   
+NSEL,A,,,8599   
+NSEL,A,,,8600   
+NSEL,A,,,8601   
+NSEL,A,,,8602   
+NSEL,A,,,8603   
+NSEL,A,,,8604   
+NSEL,A,,,8605   
+NSEL,A,,,8606   
+NSEL,A,,,8607   
+NSEL,A,,,8608   
+NSEL,A,,,8609   
+NSEL,A,,,8610   
+NSEL,A,,,8611   
+NSEL,A,,,8612   
+NSEL,A,,,8613   
+NSEL,A,,,8614   
+NSEL,A,,,8615   
+NSEL,A,,,8616   
+NSEL,A,,,8617   
+NSEL,A,,,8618   
+NSEL,A,,,8619   
+NSEL,A,,,8620   
+NSEL,A,,,8621   
+NSEL,A,,,8622   
+NSEL,A,,,8623   
+NSEL,A,,,8624   
+NSEL,A,,,8625   
+NSEL,A,,,8626   
+NSEL,A,,,8627   
+NSEL,A,,,8628   
+NSEL,A,,,8629   
+NSEL,A,,,8630   
+NSEL,A,,,8631   
+NSEL,A,,,8632   
+NSEL,A,,,8633   
+NSEL,A,,,8634   
+NSEL,A,,,8635   
+NSEL,A,,,8636   
+NSEL,A,,,8637   
+NSEL,A,,,8638   
+NSEL,A,,,8639   
+NSEL,A,,,8640   
+NSEL,A,,,8641   
+NSEL,A,,,8642   
+NSEL,A,,,8643   
+NSEL,A,,,8644   
+NSEL,A,,,8645   
+NSEL,A,,,8646   
+NSEL,A,,,8647   
+NSEL,A,,,8648   
+NSEL,A,,,8649   
+NSEL,A,,,8650   
+NSEL,A,,,8651   
+NSEL,A,,,8652   
+NSEL,A,,,8653   
+NSEL,A,,,8654   
+NSEL,A,,,8655   
+NSEL,A,,,8656   
+NSEL,A,,,8657   
+NSEL,A,,,8658   
+NSEL,A,,,8659   
+NSEL,A,,,8660   
+NSEL,A,,,8661   
+NSEL,A,,,8662   
+NSEL,A,,,8663   
+NSEL,A,,,8664   
+NSEL,A,,,8665   
+NSEL,A,,,8666   
+NSEL,A,,,8667   
+NSEL,A,,,8668   
+NSEL,A,,,8669   
+NSEL,A,,,8670   
+NSEL,A,,,8671   
+NSEL,A,,,8672   
+NSEL,A,,,8673   
+NSEL,A,,,8674   
+NSEL,A,,,8675   
+NSEL,A,,,8676   
+NSEL,A,,,8677   
+NSEL,A,,,8678   
+NSEL,A,,,8679   
+NSEL,A,,,8680   
+NSEL,A,,,8681   
+NSEL,A,,,8682   
+NSEL,A,,,8683   
+NSEL,A,,,8684   
+NSEL,A,,,8685   
+NSEL,A,,,8686   
+NSEL,A,,,8687   
+NSEL,A,,,8688   
+NSEL,A,,,8689   
+NSEL,A,,,8690   
+NSEL,A,,,8691   
+NSEL,A,,,8692   
+NSEL,A,,,8693   
+NSEL,A,,,8694   
+NSEL,A,,,8695   
+NSEL,A,,,8696   
+NSEL,A,,,8697   
+NSEL,A,,,8698   
+NSEL,A,,,8699   
+NSEL,A,,,8700   
+NSEL,A,,,8701   
+NSEL,A,,,8702   
+NSEL,A,,,8703   
+NSEL,A,,,8704   
+NSEL,A,,,8705   
+NSEL,A,,,8706   
+NSEL,A,,,8707   
+NSEL,A,,,8708   
+NSEL,A,,,8709   
+NSEL,A,,,8710   
+NSEL,A,,,8711   
+NSEL,A,,,8712   
+NSEL,A,,,8713   
+NSEL,A,,,8714   
+NSEL,A,,,8715   
+NSEL,A,,,8716   
+NSEL,A,,,8717   
+NSEL,A,,,8718   
+NSEL,A,,,8719   
+NSEL,A,,,8720   
+NSEL,A,,,8721   
+NSEL,A,,,8722   
+NSEL,A,,,8723   
+NSEL,A,,,8724   
+NSEL,A,,,8725   
+NSEL,A,,,8726   
+NSEL,A,,,8727   
+NSEL,A,,,8728   
+NSEL,A,,,8729   
+NSEL,A,,,8730   
+NSEL,A,,,16929  
+NSEL,A,,,16930  
+NSEL,A,,,16931  
+NSEL,A,,,16932  
+NSEL,A,,,16933  
+NSEL,A,,,16934  
+NSEL,A,,,16935  
+NSEL,A,,,16936  
+NSEL,A,,,16937  
+NSEL,A,,,16938  
+NSEL,A,,,16939  
+NSEL,A,,,16940  
+NSEL,A,,,16941  
+NSEL,A,,,16942  
+NSEL,A,,,16943  
+NSEL,A,,,16944  
+NSEL,A,,,16945  
+NSEL,A,,,16946  
+NSEL,A,,,16947  
+NSEL,A,,,16948  
+NSEL,A,,,16949  
+NSEL,A,,,16950  
+NSEL,A,,,16951  
+NSEL,A,,,16952  
+NSEL,A,,,16953  
+NSEL,A,,,16954  
+NSEL,A,,,16955  
+NSEL,A,,,16956  
+NSEL,A,,,16957  
+NSEL,A,,,16958  
+NSEL,A,,,16959  
+NSEL,A,,,16960  
+NSEL,A,,,16962  
+NSEL,A,,,99998  
+NSEL,A,,,99999  
+CM,_CONTACT,NODE
+TYPE,6  
+ESLN,S,0
+ESURF   
+*SET,_REALID,4  
+ALLSEL  
+ESEL,ALL
+ESEL,S,TYPE,,5  
+ESEL,A,TYPE,,6  
+ESEL,R,REAL,,4  
+! /PSYMB,ESYS,1   
+! /PNUM,TYPE,1
+! /NUM,1  
+! EPLOT   
+ESEL,ALL
+ESEL,S,TYPE,,5  
+ESEL,A,TYPE,,6  
+ESEL,R,REAL,,4  
+CMSEL,A,_NODECM 
+CMDEL,_NODECM   
+CMSEL,A,_ELEMCM 
+CMDEL,_ELEMCM   
+CMSEL,S,_KPCM   
+CMDEL,_KPCM 
+CMSEL,S,_LINECM 
+CMDEL,_LINECM   
+CMSEL,S,_AREACM 
+CMDEL,_AREACM   
+CMSEL,S,_VOLUCM 
+CMDEL,_VOLUCM   
+! /GRES,cwz,gsav  
+CMDEL,_TARGET   
+CMDEL,_CONTACT  
+! /COM, CONTACT PAIR CREATION - END   
+! /MREP,EPLOT 
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+NLGEOM,1
+AUTOTS,1
+ARCLEN,1,0,0,   
+ARCTRM,OFF,0,0,UX   
+!*  
+! /STATUS,SOLU
+SOLVE   
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       06:22:30  
+/PREP7  
+!*  
+KEYOPT,6,1,0
+KEYOPT,6,2,0
+KEYOPT,6,3,0
+KEYOPT,6,4,0
+KEYOPT,6,5,0
+KEYOPT,6,6,0
+KEYOPT,6,7,0
+KEYOPT,6,8,0
+KEYOPT,6,9,0
+KEYOPT,6,10,0   
+KEYOPT,6,11,0   
+KEYOPT,6,12,0   
+KEYOPT,6,13,0   
+KEYOPT,6,15,0   
+KEYOPT,6,16,0   
+KEYOPT,6,18,1   
+!*  
+! /MREP,EPLOT 
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+ARCLEN,1,25,0.0001, 
+ARCTRM,OFF,0,0,UX   
+!*  
+! /STATUS,SOLU
+SOLVE   
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       06:27:49  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+!*  
+CM,_CWZ_EL,ELEM 
+CM,_CWZ_ND,NODE 
+CM,_CWZ_KP,KP   
+CM,_CWZ_LN,LINE 
+CM,_CWZ_AR,AREA 
+CM,_CWZ_VL,VOLU 
+ESEL,NONE   
+ESEL,A,REAL,,4  
+ESEL,R,ENAME,,169,177   
+NSLE
+KSLN,S  
+LSLK,S,1
+ASLL,S,1
+CM,_CWZ_EL_UE,ELEM  
+NSLE
+ESLN
+ESEL,U,ENAME,,169,177   
+CMSEL,A,_CWZ_EL_UE  
+CNCHECK 
+CMDEL,_CWZ_EL_UE
+CMSEL,S,_CWZ_EL 
+CMDEL,_CWZ_EL   
+CMSEL,S,_CWZ_ND 
+CMDEL,_CWZ_ND   
+CMSEL,S,_CWZ_KP 
+CMDEL,_CWZ_KP   
+CMSEL,S,_CWZ_LN 
+CMDEL,_CWZ_LN   
+CMSEL,S,_CWZ_AR 
+CMDEL,_CWZ_AR   
+CMSEL,S,_CWZ_VL 
+CMDEL,_CWZ_VL   
+!*  
+CWZDELE,4,1,''  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+!*  
+! /COM, CONTACT PAIR CREATION - START 
+CM,_NODECM,NODE 
+CM,_ELEMCM,ELEM 
+CM,_KPCM,KP 
+CM,_LINECM,LINE 
+CM,_AREACM,AREA 
+CM,_VOLUCM,VOLU 
+! /GSAV,cwz,gsav,,temp
+MP,MU,2,0.01
+MAT,2   
+R,5 
+REAL,5  
+ET,7,170
+ET,8,175
+KEYOPT,8,9,0
+KEYOPT,8,10,0   
+R,5,
+RMORE,  
+RMORE,,0
+RMORE,0 
+! Generate the target surface   
+ASEL,S,,,1  
+ASEL,A,,,2  
+CM,_TARGET,AREA 
+TYPE,7  
+NSLA,S,1
+ESLN,S,0
+ESLL,U  
+ESEL,U,ENAME,,188,189   
+NSLE,A,CT2  
+ESURF   
+CMSEL,S,_ELEMCM 
+! Generate the contact surface  
+NSEL,NONE   
+NSEL,A,,,1  
+NSEL,A,,,2  
+NSEL,A,,,3  
+NSEL,A,,,4  
+NSEL,A,,,5  
+NSEL,A,,,6  
+NSEL,A,,,7  
+NSEL,A,,,8  
+NSEL,A,,,9  
+NSEL,A,,,10 
+NSEL,A,,,11 
+NSEL,A,,,12 
+NSEL,A,,,13 
+NSEL,A,,,14 
+NSEL,A,,,15 
+NSEL,A,,,16 
+NSEL,A,,,17 
+NSEL,A,,,18 
+NSEL,A,,,19 
+NSEL,A,,,20 
+NSEL,A,,,21 
+NSEL,A,,,22 
+NSEL,A,,,23 
+NSEL,A,,,24 
+NSEL,A,,,25 
+NSEL,A,,,26 
+NSEL,A,,,27 
+NSEL,A,,,28 
+NSEL,A,,,29 
+NSEL,A,,,30 
+NSEL,A,,,31 
+NSEL,A,,,32 
+NSEL,A,,,33 
+NSEL,A,,,34 
+NSEL,A,,,35 
+NSEL,A,,,36 
+NSEL,A,,,37 
+NSEL,A,,,38 
+NSEL,A,,,39 
+NSEL,A,,,40 
+NSEL,A,,,41 
+NSEL,A,,,42 
+NSEL,A,,,43 
+NSEL,A,,,44 
+NSEL,A,,,45 
+NSEL,A,,,46 
+NSEL,A,,,47 
+NSEL,A,,,48 
+NSEL,A,,,49 
+NSEL,A,,,50 
+NSEL,A,,,51 
+NSEL,A,,,52 
+NSEL,A,,,53 
+NSEL,A,,,54 
+NSEL,A,,,55 
+NSEL,A,,,56 
+NSEL,A,,,57 
+NSEL,A,,,58 
+NSEL,A,,,59 
+NSEL,A,,,60 
+NSEL,A,,,61 
+NSEL,A,,,62 
+NSEL,A,,,63 
+NSEL,A,,,64 
+NSEL,A,,,65 
+NSEL,A,,,66 
+NSEL,A,,,67 
+NSEL,A,,,68 
+NSEL,A,,,69 
+NSEL,A,,,70 
+NSEL,A,,,71 
+NSEL,A,,,72 
+NSEL,A,,,73 
+NSEL,A,,,74 
+NSEL,A,,,75 
+NSEL,A,,,76 
+NSEL,A,,,77 
+NSEL,A,,,78 
+NSEL,A,,,79 
+NSEL,A,,,80 
+NSEL,A,,,81 
+NSEL,A,,,82 
+NSEL,A,,,83 
+NSEL,A,,,84 
+NSEL,A,,,85 
+NSEL,A,,,86 
+NSEL,A,,,87 
+NSEL,A,,,88 
+NSEL,A,,,89 
+NSEL,A,,,90 
+NSEL,A,,,91 
+NSEL,A,,,92 
+NSEL,A,,,200
+NSEL,A,,,201
+NSEL,A,,,202
+NSEL,A,,,203
+NSEL,A,,,204
+NSEL,A,,,205
+NSEL,A,,,206
+NSEL,A,,,207
+NSEL,A,,,208
+NSEL,A,,,209
+NSEL,A,,,210
+NSEL,A,,,211
+NSEL,A,,,212
+NSEL,A,,,213
+NSEL,A,,,214
+NSEL,A,,,215
+NSEL,A,,,216
+NSEL,A,,,217
+NSEL,A,,,218
+NSEL,A,,,219
+NSEL,A,,,220
+NSEL,A,,,221
+NSEL,A,,,222
+NSEL,A,,,223
+NSEL,A,,,224
+NSEL,A,,,225
+NSEL,A,,,226
+NSEL,A,,,227
+NSEL,A,,,228
+NSEL,A,,,229
+NSEL,A,,,230
+NSEL,A,,,231
+NSEL,A,,,232
+NSEL,A,,,233
+NSEL,A,,,234
+NSEL,A,,,235
+NSEL,A,,,236
+NSEL,A,,,237
+NSEL,A,,,238
+NSEL,A,,,239
+NSEL,A,,,240
+NSEL,A,,,241
+NSEL,A,,,242
+NSEL,A,,,243
+NSEL,A,,,244
+NSEL,A,,,245
+NSEL,A,,,246
+NSEL,A,,,247
+NSEL,A,,,248
+NSEL,A,,,249
+NSEL,A,,,250
+NSEL,A,,,251
+NSEL,A,,,252
+NSEL,A,,,253
+NSEL,A,,,254
+NSEL,A,,,255
+NSEL,A,,,256
+NSEL,A,,,257
+NSEL,A,,,258
+NSEL,A,,,259
+NSEL,A,,,260
+NSEL,A,,,261
+NSEL,A,,,262
+NSEL,A,,,263
+NSEL,A,,,264
+NSEL,A,,,265
+NSEL,A,,,266
+NSEL,A,,,267
+NSEL,A,,,268
+NSEL,A,,,269
+NSEL,A,,,270
+NSEL,A,,,271
+NSEL,A,,,272
+NSEL,A,,,273
+NSEL,A,,,274
+NSEL,A,,,275
+NSEL,A,,,276
+NSEL,A,,,277
+NSEL,A,,,278
+NSEL,A,,,279
+NSEL,A,,,280
+NSEL,A,,,281
+NSEL,A,,,282
+NSEL,A,,,283
+NSEL,A,,,284
+NSEL,A,,,285
+NSEL,A,,,286
+NSEL,A,,,287
+NSEL,A,,,288
+NSEL,A,,,289
+NSEL,A,,,8553   
+NSEL,A,,,8554   
+NSEL,A,,,8555   
+NSEL,A,,,8556   
+NSEL,A,,,8557   
+NSEL,A,,,8558   
+NSEL,A,,,8559   
+NSEL,A,,,8560   
+NSEL,A,,,8561   
+NSEL,A,,,8562   
+NSEL,A,,,8563   
+NSEL,A,,,8564   
+NSEL,A,,,8565   
+NSEL,A,,,8566   
+NSEL,A,,,8567   
+NSEL,A,,,8568   
+NSEL,A,,,8569   
+NSEL,A,,,8570   
+NSEL,A,,,8571   
+NSEL,A,,,8572   
+NSEL,A,,,8573   
+NSEL,A,,,8574   
+NSEL,A,,,8575   
+NSEL,A,,,8576   
+NSEL,A,,,8577   
+NSEL,A,,,8578   
+NSEL,A,,,8579   
+NSEL,A,,,8580   
+NSEL,A,,,8581   
+NSEL,A,,,8582   
+NSEL,A,,,8583   
+NSEL,A,,,8584   
+NSEL,A,,,8585   
+NSEL,A,,,8586   
+NSEL,A,,,8587   
+NSEL,A,,,8588   
+NSEL,A,,,8589   
+NSEL,A,,,8590   
+NSEL,A,,,8591   
+NSEL,A,,,8592   
+NSEL,A,,,8593   
+NSEL,A,,,8594   
+NSEL,A,,,8595   
+NSEL,A,,,8596   
+NSEL,A,,,8597   
+NSEL,A,,,8598   
+NSEL,A,,,8599   
+NSEL,A,,,8600   
+NSEL,A,,,8601   
+NSEL,A,,,8602   
+NSEL,A,,,8603   
+NSEL,A,,,8604   
+NSEL,A,,,8605   
+NSEL,A,,,8606   
+NSEL,A,,,8607   
+NSEL,A,,,8608   
+NSEL,A,,,8609   
+NSEL,A,,,8610   
+NSEL,A,,,8611   
+NSEL,A,,,8612   
+NSEL,A,,,8613   
+NSEL,A,,,8614   
+NSEL,A,,,8615   
+NSEL,A,,,8616   
+NSEL,A,,,8617   
+NSEL,A,,,8618   
+NSEL,A,,,8619   
+NSEL,A,,,8620   
+NSEL,A,,,8621   
+NSEL,A,,,8622   
+NSEL,A,,,8623   
+NSEL,A,,,8624   
+NSEL,A,,,8625   
+NSEL,A,,,8626   
+NSEL,A,,,8627   
+NSEL,A,,,8628   
+NSEL,A,,,8629   
+NSEL,A,,,8630   
+NSEL,A,,,8631   
+NSEL,A,,,8632   
+NSEL,A,,,8633   
+NSEL,A,,,8634   
+NSEL,A,,,8635   
+NSEL,A,,,8636   
+NSEL,A,,,8637   
+NSEL,A,,,8638   
+NSEL,A,,,8639   
+NSEL,A,,,8640   
+NSEL,A,,,8641   
+NSEL,A,,,8642   
+NSEL,A,,,8643   
+NSEL,A,,,8644   
+NSEL,A,,,8645   
+NSEL,A,,,8646   
+NSEL,A,,,8647   
+NSEL,A,,,8648   
+NSEL,A,,,8649   
+NSEL,A,,,8650   
+NSEL,A,,,8651   
+NSEL,A,,,8652   
+NSEL,A,,,8653   
+NSEL,A,,,8654   
+NSEL,A,,,8655   
+NSEL,A,,,8656   
+NSEL,A,,,8657   
+NSEL,A,,,8658   
+NSEL,A,,,8659   
+NSEL,A,,,8660   
+NSEL,A,,,8661   
+NSEL,A,,,8662   
+NSEL,A,,,8663   
+NSEL,A,,,8664   
+NSEL,A,,,8665   
+NSEL,A,,,8666   
+NSEL,A,,,8667   
+NSEL,A,,,8668   
+NSEL,A,,,8669   
+NSEL,A,,,8670   
+NSEL,A,,,8671   
+NSEL,A,,,8672   
+NSEL,A,,,8673   
+NSEL,A,,,8674   
+NSEL,A,,,8675   
+NSEL,A,,,8676   
+NSEL,A,,,8677   
+NSEL,A,,,8678   
+NSEL,A,,,8679   
+NSEL,A,,,8680   
+NSEL,A,,,8681   
+NSEL,A,,,8682   
+NSEL,A,,,8683   
+NSEL,A,,,8684   
+NSEL,A,,,8685   
+NSEL,A,,,8686   
+NSEL,A,,,8687   
+NSEL,A,,,8688   
+NSEL,A,,,8689   
+NSEL,A,,,8690   
+NSEL,A,,,8691   
+NSEL,A,,,8692   
+NSEL,A,,,8693   
+NSEL,A,,,8694   
+NSEL,A,,,8695   
+NSEL,A,,,8696   
+NSEL,A,,,8697   
+NSEL,A,,,8698   
+NSEL,A,,,8699   
+NSEL,A,,,8700   
+NSEL,A,,,8701   
+NSEL,A,,,8702   
+NSEL,A,,,8703   
+NSEL,A,,,8704   
+NSEL,A,,,8705   
+NSEL,A,,,8706   
+NSEL,A,,,8707   
+NSEL,A,,,8708   
+NSEL,A,,,8709   
+NSEL,A,,,8710   
+NSEL,A,,,8711   
+NSEL,A,,,8712   
+NSEL,A,,,8713   
+NSEL,A,,,8714   
+NSEL,A,,,8715   
+NSEL,A,,,8716   
+NSEL,A,,,8717   
+NSEL,A,,,8718   
+NSEL,A,,,8719   
+NSEL,A,,,8720   
+NSEL,A,,,8721   
+NSEL,A,,,8722   
+NSEL,A,,,8723   
+NSEL,A,,,8724   
+NSEL,A,,,8725   
+NSEL,A,,,8726   
+NSEL,A,,,8727   
+NSEL,A,,,8728   
+NSEL,A,,,8729   
+NSEL,A,,,8730   
+NSEL,A,,,16929  
+NSEL,A,,,16930  
+NSEL,A,,,16931  
+NSEL,A,,,16932  
+NSEL,A,,,16933  
+NSEL,A,,,16934  
+NSEL,A,,,16935  
+NSEL,A,,,16936  
+NSEL,A,,,16937  
+NSEL,A,,,16938  
+NSEL,A,,,16939  
+NSEL,A,,,16940  
+NSEL,A,,,16941  
+NSEL,A,,,16942  
+NSEL,A,,,16943  
+NSEL,A,,,16944  
+NSEL,A,,,16945  
+NSEL,A,,,16946  
+NSEL,A,,,16947  
+NSEL,A,,,16948  
+NSEL,A,,,16949  
+NSEL,A,,,16950  
+NSEL,A,,,16951  
+NSEL,A,,,16952  
+NSEL,A,,,16953  
+NSEL,A,,,16954  
+NSEL,A,,,16955  
+NSEL,A,,,16956  
+NSEL,A,,,16957  
+NSEL,A,,,16958  
+NSEL,A,,,16959  
+NSEL,A,,,16960  
+NSEL,A,,,16962  
+NSEL,A,,,99998  
+NSEL,A,,,99999  
+CM,_CONTACT,NODE
+TYPE,8  
+ESLN,S,0
+ESURF   
+*SET,_REALID,5  
+ALLSEL  
+ESEL,ALL
+ESEL,S,TYPE,,7  
+ESEL,A,TYPE,,8  
+ESEL,R,REAL,,5  
+! /PSYMB,ESYS,1   
+! /PNUM,TYPE,1
+! /NUM,1  
+! EPLOT   
+ESEL,ALL
+ESEL,S,TYPE,,7  
+ESEL,A,TYPE,,8  
+ESEL,R,REAL,,5  
+CMSEL,A,_NODECM 
+CMDEL,_NODECM   
+CMSEL,A,_ELEMCM 
+CMDEL,_ELEMCM   
+CMSEL,S,_KPCM   
+CMDEL,_KPCM 
+CMSEL,S,_LINECM 
+CMDEL,_LINECM   
+CMSEL,S,_AREACM 
+CMDEL,_AREACM   
+CMSEL,S,_VOLUCM 
+CMDEL,_VOLUCM   
+! /GRES,cwz,gsav  
+CMDEL,_TARGET   
+CMDEL,_CONTACT  
+! /COM, CONTACT PAIR CREATION - END   
+! /MREP,EPLOT 
+!*  
+KEYOPT,8,1,0
+KEYOPT,8,2,0
+KEYOPT,8,3,0
+KEYOPT,8,4,0
+KEYOPT,8,5,0
+KEYOPT,8,6,0
+KEYOPT,8,7,0
+KEYOPT,8,8,0
+KEYOPT,8,9,0
+KEYOPT,8,10,0   
+KEYOPT,8,11,0   
+KEYOPT,8,12,0   
+KEYOPT,8,13,0   
+KEYOPT,8,15,0   
+KEYOPT,8,16,0   
+KEYOPT,8,18,1   
+!*  
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+ARCLEN,1,25,0.0001, 
+ARCTRM,OFF,0,0,UX   
+!*  
+! SAVE, file,db,
+! /STATUS,SOLU
+SOLVE   
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       06:57:38  
+/PREP7  
+!*  
+OUTRES, ALL, ALL
+FINISH  
+/SOL
+!*  
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET, PREVIOUS   
+SET,LIST,999
+SET,,, ,,, ,3   
+SET,,, ,,, ,3   
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       22:44:44  
+/SOLU   
+FINISH  
+/PREP7  
+FLST,2,3494,1,ORDE,593  
+FITEM,2,92  
+FITEM,2,183 
+FITEM,2,-289
+FITEM,2,380 
+FITEM,2,-396
+FITEM,2,415 
+FITEM,2,-416
+FITEM,2,433 
+FITEM,2,444 
+FITEM,2,477 
+FITEM,2,499 
+FITEM,2,502 
+FITEM,2,512 
+FITEM,2,519 
+FITEM,2,521 
+FITEM,2,525 
+FITEM,2,1758
+FITEM,2,1762
+FITEM,2,1765
+FITEM,2,-1766   
+FITEM,2,1843
+FITEM,2,-1845   
+FITEM,2,1850
+FITEM,2,-1857   
+FITEM,2,1860
+FITEM,2,-1862   
+FITEM,2,1897
+FITEM,2,1931
+FITEM,2,1946
+FITEM,2,-1962   
+FITEM,2,2037
+FITEM,2,-2049   
+FITEM,2,2082
+FITEM,2,2111
+FITEM,2,2134
+FITEM,2,-2150   
+FITEM,2,2227
+FITEM,2,-2228   
+FITEM,2,2260
+FITEM,2,-2289   
+FITEM,2,2322
+FITEM,2,-2323   
+FITEM,2,2351
+FITEM,2,-2352   
+FITEM,2,2376
+FITEM,2,-2403   
+FITEM,2,2429
+FITEM,2,-2431   
+FITEM,2,2471
+FITEM,2,-2472   
+FITEM,2,2500
+FITEM,2,-2517   
+FITEM,2,2542
+FITEM,2,-2544   
+FITEM,2,2581
+FITEM,2,-2583   
+FITEM,2,2602
+FITEM,2,-2624   
+FITEM,2,2668
+FITEM,2,2711
+FITEM,2,2745
+FITEM,2,-2780   
+FITEM,2,2826
+FITEM,2,2864
+FITEM,2,2912
+FITEM,2,-2951   
+FITEM,2,2979
+FITEM,2,-2980   
+FITEM,2,3043
+FITEM,2,-3062   
+FITEM,2,3084
+FITEM,2,-3087   
+FITEM,2,3118
+FITEM,2,-3123   
+FITEM,2,3136
+FITEM,2,-3163   
+FITEM,2,3218
+FITEM,2,-3225   
+FITEM,2,3275
+FITEM,2,-3277   
+FITEM,2,3315
+FITEM,2,-3369   
+FITEM,2,3417
+FITEM,2,-3419   
+FITEM,2,3468
+FITEM,2,-3471   
+FITEM,2,3526
+FITEM,2,-3560   
+FITEM,2,3613
+FITEM,2,-3618   
+FITEM,2,3682
+FITEM,2,-3686   
+FITEM,2,3748
+FITEM,2,-3810   
+FITEM,2,3837
+FITEM,2,-3838   
+FITEM,2,3855
+FITEM,2,3880
+FITEM,2,-3896   
+FITEM,2,3906
+FITEM,2,-3908   
+FITEM,2,3944
+FITEM,2,-3951   
+FITEM,2,3964
+FITEM,2,-3968   
+FITEM,2,4010
+FITEM,2,-4014   
+FITEM,2,4060
+FITEM,2,-4068   
+FITEM,2,4131
+FITEM,2,-4206   
+FITEM,2,4288
+FITEM,2,-4296   
+FITEM,2,4367
+FITEM,2,-4370   
+FITEM,2,4447
+FITEM,2,-4524   
+FITEM,2,4604
+FITEM,2,-4608   
+FITEM,2,4686
+FITEM,2,-4695   
+FITEM,2,4775
+FITEM,2,-4847   
+FITEM,2,4886
+FITEM,2,4907
+FITEM,2,-4916   
+FITEM,2,4959
+FITEM,2,-4966   
+FITEM,2,5005
+FITEM,2,-5012   
+FITEM,2,5095
+FITEM,2,-5175   
+FITEM,2,5223
+FITEM,2,-5228   
+FITEM,2,5280
+FITEM,2,-5286   
+FITEM,2,5371
+FITEM,2,-5448   
+FITEM,2,5538
+FITEM,2,-5553   
+FITEM,2,5643
+FITEM,2,-5657   
+FITEM,2,5746
+FITEM,2,-5833   
+FITEM,2,5923
+FITEM,2,-5938   
+FITEM,2,6028
+FITEM,2,-6043   
+FITEM,2,6045
+FITEM,2,-6049   
+FITEM,2,6051
+FITEM,2,-6052   
+FITEM,2,6055
+FITEM,2,-6059   
+FITEM,2,6105
+FITEM,2,-6110   
+FITEM,2,6153
+FITEM,2,-6227   
+FITEM,2,6307
+FITEM,2,-6313   
+FITEM,2,6355
+FITEM,2,-6357   
+FITEM,2,6398
+FITEM,2,-6403   
+FITEM,2,6405
+FITEM,2,-6409   
+FITEM,2,6414
+FITEM,2,-6417   
+FITEM,2,6420
+FITEM,2,6422
+FITEM,2,-6423   
+FITEM,2,6426
+FITEM,2,6440
+FITEM,2,6444
+FITEM,2,6456
+FITEM,2,-6457   
+FITEM,2,6466
+FITEM,2,-6507   
+FITEM,2,6549
+FITEM,2,-6550   
+FITEM,2,6588
+FITEM,2,-6590   
+FITEM,2,6639
+FITEM,2,-6669   
+FITEM,2,6701
+FITEM,2,-6705   
+FITEM,2,6744
+FITEM,2,-6748   
+FITEM,2,6772
+FITEM,2,-6774   
+FITEM,2,6777
+FITEM,2,-6778   
+FITEM,2,6784
+FITEM,2,6788
+FITEM,2,-6790   
+FITEM,2,6796
+FITEM,2,6802
+FITEM,2,-6804   
+FITEM,2,6823
+FITEM,2,-6824   
+FITEM,2,6834
+FITEM,2,6839
+FITEM,2,6841
+FITEM,2,-6842   
+FITEM,2,6846
+FITEM,2,6856
+FITEM,2,-6859   
+FITEM,2,6874
+FITEM,2,6911
+FITEM,2,-6939   
+FITEM,2,6998
+FITEM,2,7031
+FITEM,2,-7060   
+FITEM,2,7071
+FITEM,2,-7072   
+FITEM,2,7091
+FITEM,2,-7092   
+FITEM,2,7116
+FITEM,2,-7118   
+FITEM,2,7134
+FITEM,2,-7137   
+FITEM,2,7146
+FITEM,2,7150
+FITEM,2,-7151   
+FITEM,2,7153
+FITEM,2,-7154   
+FITEM,2,7159
+FITEM,2,-7161   
+FITEM,2,7168
+FITEM,2,7173
+FITEM,2,-7176   
+FITEM,2,7179
+FITEM,2,7184
+FITEM,2,-7185   
+FITEM,2,7187
+FITEM,2,7190
+FITEM,2,7194
+FITEM,2,-7197   
+FITEM,2,7199
+FITEM,2,7211
+FITEM,2,-7212   
+FITEM,2,7214
+FITEM,2,7219
+FITEM,2,7222
+FITEM,2,-7223   
+FITEM,2,7229
+FITEM,2,7234
+FITEM,2,7239
+FITEM,2,-7240   
+FITEM,2,7246
+FITEM,2,7248
+FITEM,2,-7249   
+FITEM,2,7251
+FITEM,2,7254
+FITEM,2,7263
+FITEM,2,-7264   
+FITEM,2,7287
+FITEM,2,-7303   
+FITEM,2,7344
+FITEM,2,-7365   
+FITEM,2,7416
+FITEM,2,-7421   
+FITEM,2,7479
+FITEM,2,7489
+FITEM,2,7498
+FITEM,2,7504
+FITEM,2,-7505   
+FITEM,2,7510
+FITEM,2,7521
+FITEM,2,7524
+FITEM,2,7526
+FITEM,2,7533
+FITEM,2,7535
+FITEM,2,7537
+FITEM,2,-7538   
+FITEM,2,7548
+FITEM,2,7551
+FITEM,2,7554
+FITEM,2,7558
+FITEM,2,7563
+FITEM,2,7567
+FITEM,2,-7569   
+FITEM,2,7578
+FITEM,2,7588
+FITEM,2,-7597   
+FITEM,2,7616
+FITEM,2,-7631   
+FITEM,2,7678
+FITEM,2,-7685   
+FITEM,2,7716
+FITEM,2,-7717   
+FITEM,2,7719
+FITEM,2,-7720   
+FITEM,2,7804
+FITEM,2,7815
+FITEM,2,7821
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,8755
+FITEM,2,-8756   
+FITEM,2,8773
+FITEM,2,8787
+FITEM,2,8813
+FITEM,2,8836
+FITEM,2,8839
+FITEM,2,8849
+FITEM,2,8855
+FITEM,2,8858
+FITEM,2,8863
+FITEM,2,10110   
+FITEM,2,10114   
+FITEM,2,10117   
+FITEM,2,-10118  
+FITEM,2,10195   
+FITEM,2,-10197  
+FITEM,2,10202   
+FITEM,2,-10209  
+FITEM,2,10212   
+FITEM,2,-10214  
+FITEM,2,10248   
+FITEM,2,10283   
+FITEM,2,10298   
+FITEM,2,-10314  
+FITEM,2,10389   
+FITEM,2,-10401  
+FITEM,2,10430   
+FITEM,2,10463   
+FITEM,2,10486   
+FITEM,2,-10502  
+FITEM,2,10540   
+FITEM,2,-10541  
+FITEM,2,10612   
+FITEM,2,-10641  
+FITEM,2,10669   
+FITEM,2,-10670  
+FITEM,2,10703   
+FITEM,2,-10704  
+FITEM,2,10728   
+FITEM,2,-10755  
+FITEM,2,10795   
+FITEM,2,-10796  
+FITEM,2,10822   
+FITEM,2,-10824  
+FITEM,2,10852   
+FITEM,2,-10869  
+FITEM,2,10906   
+FITEM,2,-10908  
+FITEM,2,10933   
+FITEM,2,-10935  
+FITEM,2,10954   
+FITEM,2,-10976  
+FITEM,2,11019   
+FITEM,2,11063   
+FITEM,2,11097   
+FITEM,2,-11132  
+FITEM,2,11170   
+FITEM,2,11216   
+FITEM,2,11264   
+FITEM,2,-11303  
+FITEM,2,11358   
+FITEM,2,-11359  
+FITEM,2,11395   
+FITEM,2,-11414  
+FITEM,2,11445   
+FITEM,2,-11450  
+FITEM,2,11472   
+FITEM,2,-11475  
+FITEM,2,11488   
+FITEM,2,-11515  
+FITEM,2,11565   
+FITEM,2,-11567  
+FITEM,2,11622   
+FITEM,2,-11629  
+FITEM,2,11667   
+FITEM,2,-11721  
+FITEM,2,11770   
+FITEM,2,-11773  
+FITEM,2,11821   
+FITEM,2,-11823  
+FITEM,2,11878   
+FITEM,2,-11912  
+FITEM,2,11976   
+FITEM,2,-11980  
+FITEM,2,12033   
+FITEM,2,-12038  
+FITEM,2,12100   
+FITEM,2,-12162  
+FITEM,2,12179   
+FITEM,2,12206   
+FITEM,2,-12207  
+FITEM,2,12232   
+FITEM,2,-12248  
+FITEM,2,12284   
+FITEM,2,-12291  
+FITEM,2,12301   
+FITEM,2,-12303  
+FITEM,2,12316   
+FITEM,2,-12320  
+FITEM,2,12366   
+FITEM,2,-12374  
+FITEM,2,12416   
+FITEM,2,-12420  
+FITEM,2,12483   
+FITEM,2,-12558  
+FITEM,2,12629   
+FITEM,2,-12632  
+FITEM,2,12714   
+FITEM,2,-12722  
+FITEM,2,12799   
+FITEM,2,-12876  
+FITEM,2,12954   
+FITEM,2,-12963  
+FITEM,2,13043   
+FITEM,2,-13047  
+FITEM,2,13127   
+FITEM,2,-13199  
+FITEM,2,13220   
+FITEM,2,-13222  
+FITEM,2,13261   
+FITEM,2,-13268  
+FITEM,2,13307   
+FITEM,2,-13314  
+FITEM,2,13357   
+FITEM,2,-13364  
+FITEM,2,13447   
+FITEM,2,-13527  
+FITEM,2,13579   
+FITEM,2,-13585  
+FITEM,2,13633   
+FITEM,2,-13638  
+FITEM,2,13723   
+FITEM,2,-13800  
+FITEM,2,13890   
+FITEM,2,-13904  
+FITEM,2,13994   
+FITEM,2,-14009  
+FITEM,2,14098   
+FITEM,2,-14185  
+FITEM,2,14275   
+FITEM,2,-14290  
+FITEM,2,14380   
+FITEM,2,-14395  
+FITEM,2,14397   
+FITEM,2,-14401  
+FITEM,2,14403   
+FITEM,2,-14404  
+FITEM,2,14407   
+FITEM,2,-14412  
+FITEM,2,14455   
+FITEM,2,-14459  
+FITEM,2,14505   
+FITEM,2,-14579  
+FITEM,2,14659   
+FITEM,2,-14661  
+FITEM,2,14702   
+FITEM,2,-14708  
+FITEM,2,14750   
+FITEM,2,-14755  
+FITEM,2,14757   
+FITEM,2,-14760  
+FITEM,2,14765   
+FITEM,2,-14769  
+FITEM,2,14772   
+FITEM,2,14774   
+FITEM,2,-14775  
+FITEM,2,14778   
+FITEM,2,14792   
+FITEM,2,14796   
+FITEM,2,14800   
+FITEM,2,-14801  
+FITEM,2,14818   
+FITEM,2,-14859  
+FITEM,2,14901   
+FITEM,2,-14903  
+FITEM,2,14952   
+FITEM,2,-14953  
+FITEM,2,14991   
+FITEM,2,-15021  
+FITEM,2,15053   
+FITEM,2,-15057  
+FITEM,2,15081   
+FITEM,2,-15085  
+FITEM,2,15124   
+FITEM,2,-15125  
+FITEM,2,15131   
+FITEM,2,-15133  
+FITEM,2,15136   
+FITEM,2,15140   
+FITEM,2,-15142  
+FITEM,2,15148   
+FITEM,2,15154   
+FITEM,2,-15156  
+FITEM,2,15175   
+FITEM,2,-15176  
+FITEM,2,15186   
+FITEM,2,15191   
+FITEM,2,15193   
+FITEM,2,-15194  
+FITEM,2,15198   
+FITEM,2,15208   
+FITEM,2,-15211  
+FITEM,2,15226   
+FITEM,2,15263   
+FITEM,2,-15291  
+FITEM,2,15323   
+FITEM,2,15383   
+FITEM,2,-15412  
+FITEM,2,15423   
+FITEM,2,-15424  
+FITEM,2,15448   
+FITEM,2,-15449  
+FITEM,2,15468   
+FITEM,2,-15471  
+FITEM,2,15480   
+FITEM,2,-15482  
+FITEM,2,15498   
+FITEM,2,-15500  
+FITEM,2,15505   
+FITEM,2,-15506  
+FITEM,2,15511   
+FITEM,2,-15513  
+FITEM,2,15520   
+FITEM,2,15525   
+FITEM,2,-15528  
+FITEM,2,15531   
+FITEM,2,15536   
+FITEM,2,-15537  
+FITEM,2,15539   
+FITEM,2,15542   
+FITEM,2,15546   
+FITEM,2,-15549  
+FITEM,2,15551   
+FITEM,2,15563   
+FITEM,2,-15564  
+FITEM,2,15566   
+FITEM,2,15571   
+FITEM,2,15574   
+FITEM,2,-15575  
+FITEM,2,15581   
+FITEM,2,15586   
+FITEM,2,15591   
+FITEM,2,-15592  
+FITEM,2,15598   
+FITEM,2,15600   
+FITEM,2,-15601  
+FITEM,2,15603   
+FITEM,2,15606   
+FITEM,2,15615   
+FITEM,2,-15616  
+FITEM,2,15639   
+FITEM,2,-15655  
+FITEM,2,15696   
+FITEM,2,-15717  
+FITEM,2,15768   
+FITEM,2,-15773  
+FITEM,2,15819   
+FITEM,2,15841   
+FITEM,2,-15842  
+FITEM,2,15856   
+FITEM,2,-15857  
+FITEM,2,15862   
+FITEM,2,15873   
+FITEM,2,15876   
+FITEM,2,15878   
+FITEM,2,15885   
+FITEM,2,15887   
+FITEM,2,15889   
+FITEM,2,-15890  
+FITEM,2,15900   
+FITEM,2,15903   
+FITEM,2,15906   
+FITEM,2,15910   
+FITEM,2,15915   
+FITEM,2,15919   
+FITEM,2,-15921  
+FITEM,2,15930   
+FITEM,2,15940   
+FITEM,2,-15949  
+FITEM,2,15968   
+FITEM,2,-15983  
+FITEM,2,16030   
+FITEM,2,-16037  
+FITEM,2,16068   
+FITEM,2,-16069  
+FITEM,2,16071   
+FITEM,2,-16072  
+FITEM,2,16156   
+FITEM,2,16167   
+FITEM,2,16173   
+FITEM,2,16945   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+DDELE,P51X,ALL  
+! /REPLOT 
+FLST,2,198,1,ORDE,9 
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,16945   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+FDELE,P51X,ALL  
+FLST,2,198,1,ORDE,9 
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,16945   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+!*  
+/GO 
+F,P51X,FZ,-2000 
+FINISH  
+/SOL
+!*  
+ARCLEN,1,25,0.0001, 
+ARCTRM,OFF,0,0,UX   
+!*  
+!*  
+TIME,0  
+AUTOTS,1
+NSUBST, ,1000,10,1  
+KBC,0   
+!*  
+TSRES,ERASE 
+! /STATUS,SOLU
+SOLVE   
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       23:10:35  
+/SOLU   
+FLST,2,2124,1,ORDE,244  
+FITEM,2,92  
+FITEM,2,191 
+FITEM,2,-289
+FITEM,2,388 
+FITEM,2,-396
+FITEM,2,512 
+FITEM,2,521 
+FITEM,2,3138
+FITEM,2,-3155   
+FITEM,2,3157
+FITEM,2,-3163   
+FITEM,2,3225
+FITEM,2,3316
+FITEM,2,-3369   
+FITEM,2,3419
+FITEM,2,3526
+FITEM,2,-3560   
+FITEM,2,3618
+FITEM,2,3748
+FITEM,2,-3810   
+FITEM,2,3838
+FITEM,2,3855
+FITEM,2,3880
+FITEM,2,-3896   
+FITEM,2,3950
+FITEM,2,-3951   
+FITEM,2,3964
+FITEM,2,-3968   
+FITEM,2,4014
+FITEM,2,4065
+FITEM,2,-4068   
+FITEM,2,4131
+FITEM,2,-4206   
+FITEM,2,4295
+FITEM,2,-4296   
+FITEM,2,4447
+FITEM,2,-4524   
+FITEM,2,4607
+FITEM,2,-4608   
+FITEM,2,4693
+FITEM,2,-4695   
+FITEM,2,4775
+FITEM,2,-4847   
+FITEM,2,4886
+FITEM,2,4909
+FITEM,2,-4916   
+FITEM,2,4963
+FITEM,2,-4966   
+FITEM,2,5009
+FITEM,2,-5012   
+FITEM,2,5095
+FITEM,2,-5175   
+FITEM,2,5226
+FITEM,2,-5228   
+FITEM,2,5284
+FITEM,2,-5286   
+FITEM,2,5371
+FITEM,2,-5448   
+FITEM,2,5546
+FITEM,2,-5553   
+FITEM,2,5651
+FITEM,2,-5657   
+FITEM,2,5746
+FITEM,2,-5833   
+FITEM,2,5931
+FITEM,2,-5938   
+FITEM,2,6036
+FITEM,2,-6043   
+FITEM,2,6045
+FITEM,2,-6049   
+FITEM,2,6051
+FITEM,2,-6052   
+FITEM,2,6055
+FITEM,2,6105
+FITEM,2,-6107   
+FITEM,2,6153
+FITEM,2,-6227   
+FITEM,2,6307
+FITEM,2,-6309   
+FITEM,2,6355
+FITEM,2,-6356   
+FITEM,2,6398
+FITEM,2,-6403   
+FITEM,2,6405
+FITEM,2,-6406   
+FITEM,2,6414
+FITEM,2,-6415   
+FITEM,2,6417
+FITEM,2,6420
+FITEM,2,6422
+FITEM,2,-6423   
+FITEM,2,6426
+FITEM,2,6440
+FITEM,2,6456
+FITEM,2,6466
+FITEM,2,-6507   
+FITEM,2,6588
+FITEM,2,-6589   
+FITEM,2,6639
+FITEM,2,-6669   
+FITEM,2,6701
+FITEM,2,6772
+FITEM,2,6788
+FITEM,2,-6790   
+FITEM,2,6796
+FITEM,2,6803
+FITEM,2,-6804   
+FITEM,2,6824
+FITEM,2,6834
+FITEM,2,6839
+FITEM,2,6842
+FITEM,2,6858
+FITEM,2,6874
+FITEM,2,6913
+FITEM,2,-6914   
+FITEM,2,6916
+FITEM,2,6920
+FITEM,2,-6921   
+FITEM,2,6923
+FITEM,2,-6924   
+FITEM,2,7056
+FITEM,2,7160
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,8849
+FITEM,2,8858
+FITEM,2,11490   
+FITEM,2,-11507  
+FITEM,2,11509   
+FITEM,2,-11515  
+FITEM,2,11629   
+FITEM,2,11668   
+FITEM,2,-11721  
+FITEM,2,11823   
+FITEM,2,11878   
+FITEM,2,-11912  
+FITEM,2,12038   
+FITEM,2,12100   
+FITEM,2,-12162  
+FITEM,2,12179   
+FITEM,2,12207   
+FITEM,2,12232   
+FITEM,2,-12248  
+FITEM,2,12290   
+FITEM,2,-12291  
+FITEM,2,12316   
+FITEM,2,-12320  
+FITEM,2,12371   
+FITEM,2,-12374  
+FITEM,2,12420   
+FITEM,2,12483   
+FITEM,2,-12558  
+FITEM,2,12721   
+FITEM,2,-12722  
+FITEM,2,12799   
+FITEM,2,-12876  
+FITEM,2,12961   
+FITEM,2,-12963  
+FITEM,2,13046   
+FITEM,2,-13047  
+FITEM,2,13127   
+FITEM,2,-13199  
+FITEM,2,13222   
+FITEM,2,13261   
+FITEM,2,-13268  
+FITEM,2,13311   
+FITEM,2,-13314  
+FITEM,2,13361   
+FITEM,2,-13364  
+FITEM,2,13447   
+FITEM,2,-13527  
+FITEM,2,13583   
+FITEM,2,-13585  
+FITEM,2,13636   
+FITEM,2,-13638  
+FITEM,2,13723   
+FITEM,2,-13800  
+FITEM,2,13898   
+FITEM,2,-13904  
+FITEM,2,14002   
+FITEM,2,-14009  
+FITEM,2,14098   
+FITEM,2,-14185  
+FITEM,2,14283   
+FITEM,2,-14290  
+FITEM,2,14388   
+FITEM,2,-14395  
+FITEM,2,14397   
+FITEM,2,-14401  
+FITEM,2,14403   
+FITEM,2,-14404  
+FITEM,2,14407   
+FITEM,2,-14409  
+FITEM,2,14455   
+FITEM,2,14505   
+FITEM,2,-14579  
+FITEM,2,14659   
+FITEM,2,-14660  
+FITEM,2,14702   
+FITEM,2,-14704  
+FITEM,2,14750   
+FITEM,2,-14755  
+FITEM,2,14757   
+FITEM,2,14765   
+FITEM,2,-14767  
+FITEM,2,14769   
+FITEM,2,14772   
+FITEM,2,14774   
+FITEM,2,-14775  
+FITEM,2,14778   
+FITEM,2,14792   
+FITEM,2,14800   
+FITEM,2,14818   
+FITEM,2,-14859  
+FITEM,2,14901   
+FITEM,2,-14902  
+FITEM,2,14991   
+FITEM,2,-15021  
+FITEM,2,15081   
+FITEM,2,15131   
+FITEM,2,15140   
+FITEM,2,-15142  
+FITEM,2,15148   
+FITEM,2,15155   
+FITEM,2,-15156  
+FITEM,2,15176   
+FITEM,2,15186   
+FITEM,2,15191   
+FITEM,2,15194   
+FITEM,2,15210   
+FITEM,2,15226   
+FITEM,2,15265   
+FITEM,2,-15266  
+FITEM,2,15268   
+FITEM,2,15272   
+FITEM,2,-15273  
+FITEM,2,15275   
+FITEM,2,-15276  
+FITEM,2,15408   
+FITEM,2,15512   
+FITEM,2,16945   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+DDELE,P51X,ALL  
+FLST,2,3250,1,ORDE,522  
+FITEM,2,92  
+FITEM,2,184 
+FITEM,2,-289
+FITEM,2,381 
+FITEM,2,-396
+FITEM,2,415 
+FITEM,2,-416
+FITEM,2,444 
+FITEM,2,499 
+FITEM,2,502 
+FITEM,2,512 
+FITEM,2,519 
+FITEM,2,521 
+FITEM,2,525 
+FITEM,2,1951
+FITEM,2,-1952   
+FITEM,2,2042
+FITEM,2,-2043   
+FITEM,2,2046
+FITEM,2,-2048   
+FITEM,2,2134
+FITEM,2,-2150   
+FITEM,2,2228
+FITEM,2,2260
+FITEM,2,-2289   
+FITEM,2,2323
+FITEM,2,2376
+FITEM,2,-2403   
+FITEM,2,2430
+FITEM,2,-2431   
+FITEM,2,2471
+FITEM,2,-2472   
+FITEM,2,2500
+FITEM,2,-2517   
+FITEM,2,2544
+FITEM,2,2582
+FITEM,2,-2583   
+FITEM,2,2602
+FITEM,2,-2624   
+FITEM,2,2668
+FITEM,2,2711
+FITEM,2,2745
+FITEM,2,-2780   
+FITEM,2,2826
+FITEM,2,2864
+FITEM,2,2912
+FITEM,2,-2951   
+FITEM,2,2980
+FITEM,2,3043
+FITEM,2,-3062   
+FITEM,2,3085
+FITEM,2,-3087   
+FITEM,2,3119
+FITEM,2,-3123   
+FITEM,2,3136
+FITEM,2,-3163   
+FITEM,2,3219
+FITEM,2,-3225   
+FITEM,2,3276
+FITEM,2,-3277   
+FITEM,2,3315
+FITEM,2,-3369   
+FITEM,2,3417
+FITEM,2,-3419   
+FITEM,2,3468
+FITEM,2,-3471   
+FITEM,2,3526
+FITEM,2,-3560   
+FITEM,2,3614
+FITEM,2,-3618   
+FITEM,2,3683
+FITEM,2,-3686   
+FITEM,2,3748
+FITEM,2,-3810   
+FITEM,2,3838
+FITEM,2,3855
+FITEM,2,3880
+FITEM,2,-3896   
+FITEM,2,3907
+FITEM,2,-3908   
+FITEM,2,3946
+FITEM,2,-3951   
+FITEM,2,3964
+FITEM,2,-3968   
+FITEM,2,4012
+FITEM,2,-4014   
+FITEM,2,4060
+FITEM,2,-4068   
+FITEM,2,4131
+FITEM,2,-4206   
+FITEM,2,4289
+FITEM,2,-4296   
+FITEM,2,4369
+FITEM,2,-4370   
+FITEM,2,4447
+FITEM,2,-4524   
+FITEM,2,4604
+FITEM,2,-4608   
+FITEM,2,4688
+FITEM,2,-4695   
+FITEM,2,4775
+FITEM,2,-4847   
+FITEM,2,4886
+FITEM,2,4907
+FITEM,2,-4916   
+FITEM,2,4960
+FITEM,2,-4966   
+FITEM,2,5006
+FITEM,2,-5012   
+FITEM,2,5095
+FITEM,2,-5175   
+FITEM,2,5223
+FITEM,2,-5228   
+FITEM,2,5281
+FITEM,2,-5286   
+FITEM,2,5371
+FITEM,2,-5448   
+FITEM,2,5539
+FITEM,2,-5553   
+FITEM,2,5645
+FITEM,2,-5657   
+FITEM,2,5746
+FITEM,2,-5833   
+FITEM,2,5924
+FITEM,2,-5938   
+FITEM,2,6030
+FITEM,2,-6043   
+FITEM,2,6045
+FITEM,2,-6049   
+FITEM,2,6051
+FITEM,2,-6052   
+FITEM,2,6055
+FITEM,2,-6058   
+FITEM,2,6105
+FITEM,2,-6110   
+FITEM,2,6153
+FITEM,2,-6227   
+FITEM,2,6307
+FITEM,2,-6312   
+FITEM,2,6355
+FITEM,2,-6357   
+FITEM,2,6398
+FITEM,2,-6403   
+FITEM,2,6405
+FITEM,2,-6408   
+FITEM,2,6414
+FITEM,2,-6417   
+FITEM,2,6420
+FITEM,2,6422
+FITEM,2,-6423   
+FITEM,2,6426
+FITEM,2,6440
+FITEM,2,6456
+FITEM,2,-6457   
+FITEM,2,6466
+FITEM,2,-6507   
+FITEM,2,6549
+FITEM,2,-6550   
+FITEM,2,6588
+FITEM,2,-6590   
+FITEM,2,6639
+FITEM,2,-6669   
+FITEM,2,6701
+FITEM,2,-6703   
+FITEM,2,6744
+FITEM,2,-6748   
+FITEM,2,6772
+FITEM,2,-6774   
+FITEM,2,6777
+FITEM,2,6784
+FITEM,2,6788
+FITEM,2,-6790   
+FITEM,2,6796
+FITEM,2,6802
+FITEM,2,-6804   
+FITEM,2,6823
+FITEM,2,-6824   
+FITEM,2,6834
+FITEM,2,6839
+FITEM,2,6841
+FITEM,2,-6842   
+FITEM,2,6846
+FITEM,2,6856
+FITEM,2,-6859   
+FITEM,2,6874
+FITEM,2,6911
+FITEM,2,-6939   
+FITEM,2,6998
+FITEM,2,7031
+FITEM,2,-7060   
+FITEM,2,7071
+FITEM,2,-7072   
+FITEM,2,7091
+FITEM,2,-7092   
+FITEM,2,7116
+FITEM,2,-7117   
+FITEM,2,7134
+FITEM,2,-7136   
+FITEM,2,7146
+FITEM,2,7150
+FITEM,2,7153
+FITEM,2,-7154   
+FITEM,2,7159
+FITEM,2,-7161   
+FITEM,2,7168
+FITEM,2,7173
+FITEM,2,-7176   
+FITEM,2,7179
+FITEM,2,7184
+FITEM,2,-7185   
+FITEM,2,7187
+FITEM,2,7190
+FITEM,2,7194
+FITEM,2,-7197   
+FITEM,2,7199
+FITEM,2,7211
+FITEM,2,-7212   
+FITEM,2,7214
+FITEM,2,7219
+FITEM,2,7222
+FITEM,2,-7223   
+FITEM,2,7229
+FITEM,2,7239
+FITEM,2,-7240   
+FITEM,2,7246
+FITEM,2,7248
+FITEM,2,-7249   
+FITEM,2,7251
+FITEM,2,7254
+FITEM,2,7263
+FITEM,2,-7264   
+FITEM,2,7287
+FITEM,2,-7303   
+FITEM,2,7344
+FITEM,2,-7365   
+FITEM,2,7416
+FITEM,2,-7421   
+FITEM,2,7479
+FITEM,2,7489
+FITEM,2,7510
+FITEM,2,7521
+FITEM,2,7524
+FITEM,2,7526
+FITEM,2,7533
+FITEM,2,7535
+FITEM,2,7537
+FITEM,2,-7538   
+FITEM,2,7548
+FITEM,2,7551
+FITEM,2,7558
+FITEM,2,7567
+FITEM,2,-7569   
+FITEM,2,7578
+FITEM,2,7589
+FITEM,2,-7597   
+FITEM,2,7618
+FITEM,2,7621
+FITEM,2,-7626   
+FITEM,2,7680
+FITEM,2,7804
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,8755
+FITEM,2,-8756   
+FITEM,2,8787
+FITEM,2,8836
+FITEM,2,8839
+FITEM,2,8849
+FITEM,2,8855
+FITEM,2,8858
+FITEM,2,8863
+FITEM,2,10303   
+FITEM,2,-10304  
+FITEM,2,10394   
+FITEM,2,-10395  
+FITEM,2,10398   
+FITEM,2,-10400  
+FITEM,2,10486   
+FITEM,2,-10502  
+FITEM,2,10541   
+FITEM,2,10612   
+FITEM,2,-10641  
+FITEM,2,10704   
+FITEM,2,10728   
+FITEM,2,-10755  
+FITEM,2,10795   
+FITEM,2,-10796  
+FITEM,2,10823   
+FITEM,2,-10824  
+FITEM,2,10852   
+FITEM,2,-10869  
+FITEM,2,10907   
+FITEM,2,-10908  
+FITEM,2,10935   
+FITEM,2,10954   
+FITEM,2,-10976  
+FITEM,2,11019   
+FITEM,2,11063   
+FITEM,2,11097   
+FITEM,2,-11132  
+FITEM,2,11170   
+FITEM,2,11216   
+FITEM,2,11264   
+FITEM,2,-11303  
+FITEM,2,11359   
+FITEM,2,11395   
+FITEM,2,-11414  
+FITEM,2,11446   
+FITEM,2,-11450  
+FITEM,2,11473   
+FITEM,2,-11475  
+FITEM,2,11488   
+FITEM,2,-11515  
+FITEM,2,11566   
+FITEM,2,-11567  
+FITEM,2,11623   
+FITEM,2,-11629  
+FITEM,2,11667   
+FITEM,2,-11721  
+FITEM,2,11770   
+FITEM,2,-11773  
+FITEM,2,11821   
+FITEM,2,-11823  
+FITEM,2,11878   
+FITEM,2,-11912  
+FITEM,2,11977   
+FITEM,2,-11980  
+FITEM,2,12034   
+FITEM,2,-12038  
+FITEM,2,12100   
+FITEM,2,-12162  
+FITEM,2,12179   
+FITEM,2,12207   
+FITEM,2,12232   
+FITEM,2,-12248  
+FITEM,2,12286   
+FITEM,2,-12291  
+FITEM,2,12302   
+FITEM,2,-12303  
+FITEM,2,12316   
+FITEM,2,-12320  
+FITEM,2,12366   
+FITEM,2,-12374  
+FITEM,2,12418   
+FITEM,2,-12420  
+FITEM,2,12483   
+FITEM,2,-12558  
+FITEM,2,12631   
+FITEM,2,-12632  
+FITEM,2,12715   
+FITEM,2,-12722  
+FITEM,2,12799   
+FITEM,2,-12876  
+FITEM,2,12956   
+FITEM,2,-12963  
+FITEM,2,13043   
+FITEM,2,-13047  
+FITEM,2,13127   
+FITEM,2,-13199  
+FITEM,2,13220   
+FITEM,2,-13222  
+FITEM,2,13261   
+FITEM,2,-13268  
+FITEM,2,13308   
+FITEM,2,-13314  
+FITEM,2,13358   
+FITEM,2,-13364  
+FITEM,2,13447   
+FITEM,2,-13527  
+FITEM,2,13580   
+FITEM,2,-13585  
+FITEM,2,13633   
+FITEM,2,-13638  
+FITEM,2,13723   
+FITEM,2,-13800  
+FITEM,2,13892   
+FITEM,2,-13904  
+FITEM,2,13995   
+FITEM,2,-14009  
+FITEM,2,14098   
+FITEM,2,-14185  
+FITEM,2,14277   
+FITEM,2,-14290  
+FITEM,2,14381   
+FITEM,2,-14395  
+FITEM,2,14397   
+FITEM,2,-14401  
+FITEM,2,14403   
+FITEM,2,-14404  
+FITEM,2,14407   
+FITEM,2,-14412  
+FITEM,2,14455   
+FITEM,2,-14458  
+FITEM,2,14505   
+FITEM,2,-14579  
+FITEM,2,14659   
+FITEM,2,-14661  
+FITEM,2,14702   
+FITEM,2,-14707  
+FITEM,2,14750   
+FITEM,2,-14755  
+FITEM,2,14757   
+FITEM,2,-14759  
+FITEM,2,14765   
+FITEM,2,-14769  
+FITEM,2,14772   
+FITEM,2,14774   
+FITEM,2,-14775  
+FITEM,2,14778   
+FITEM,2,14792   
+FITEM,2,14800   
+FITEM,2,-14801  
+FITEM,2,14818   
+FITEM,2,-14859  
+FITEM,2,14901   
+FITEM,2,-14903  
+FITEM,2,14952   
+FITEM,2,-14953  
+FITEM,2,14991   
+FITEM,2,-15021  
+FITEM,2,15053   
+FITEM,2,-15057  
+FITEM,2,15081   
+FITEM,2,-15083  
+FITEM,2,15124   
+FITEM,2,15131   
+FITEM,2,-15133  
+FITEM,2,15136   
+FITEM,2,15140   
+FITEM,2,-15142  
+FITEM,2,15148   
+FITEM,2,15154   
+FITEM,2,-15156  
+FITEM,2,15175   
+FITEM,2,-15176  
+FITEM,2,15186   
+FITEM,2,15191   
+FITEM,2,15193   
+FITEM,2,-15194  
+FITEM,2,15198   
+FITEM,2,15208   
+FITEM,2,-15211  
+FITEM,2,15226   
+FITEM,2,15263   
+FITEM,2,-15291  
+FITEM,2,15323   
+FITEM,2,15383   
+FITEM,2,-15412  
+FITEM,2,15423   
+FITEM,2,-15424  
+FITEM,2,15448   
+FITEM,2,-15449  
+FITEM,2,15468   
+FITEM,2,-15470  
+FITEM,2,15480   
+FITEM,2,-15481  
+FITEM,2,15498   
+FITEM,2,-15499  
+FITEM,2,15505   
+FITEM,2,-15506  
+FITEM,2,15511   
+FITEM,2,-15513  
+FITEM,2,15520   
+FITEM,2,15525   
+FITEM,2,-15528  
+FITEM,2,15531   
+FITEM,2,15536   
+FITEM,2,-15537  
+FITEM,2,15539   
+FITEM,2,15542   
+FITEM,2,15546   
+FITEM,2,-15549  
+FITEM,2,15551   
+FITEM,2,15563   
+FITEM,2,-15564  
+FITEM,2,15566   
+FITEM,2,15571   
+FITEM,2,15574   
+FITEM,2,-15575  
+FITEM,2,15581   
+FITEM,2,15591   
+FITEM,2,-15592  
+FITEM,2,15598   
+FITEM,2,15600   
+FITEM,2,-15601  
+FITEM,2,15603   
+FITEM,2,15606   
+FITEM,2,15615   
+FITEM,2,-15616  
+FITEM,2,15639   
+FITEM,2,-15655  
+FITEM,2,15696   
+FITEM,2,-15717  
+FITEM,2,15768   
+FITEM,2,-15773  
+FITEM,2,15819   
+FITEM,2,15841   
+FITEM,2,15862   
+FITEM,2,15873   
+FITEM,2,15876   
+FITEM,2,15878   
+FITEM,2,15885   
+FITEM,2,15887   
+FITEM,2,15889   
+FITEM,2,-15890  
+FITEM,2,15900   
+FITEM,2,15903   
+FITEM,2,15910   
+FITEM,2,15919   
+FITEM,2,-15921  
+FITEM,2,15930   
+FITEM,2,15941   
+FITEM,2,-15949  
+FITEM,2,15970   
+FITEM,2,15973   
+FITEM,2,-15978  
+FITEM,2,16032   
+FITEM,2,16156   
+FITEM,2,16945   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+FDELE,P51X,ALL  
+! /REPLOT 
+FLST,2,378,1,ORDE,16
+FITEM,2,92  
+FITEM,2,199 
+FITEM,2,-289
+FITEM,2,396 
+FITEM,2,5746
+FITEM,2,-5833   
+FITEM,2,6045
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,14098   
+FITEM,2,-14185  
+FITEM,2,14397   
+FITEM,2,16945   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+DDELE,P51X,ALL  
+FLST,2,194,1,ORDE,13
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,16945   
+FITEM,2,-16948  
+FITEM,2,16950   
+FITEM,2,-16951  
+FITEM,2,16955   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+FLST,2,200,1,ORDE,11
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,5832
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,14184   
+FITEM,2,16945   
+FITEM,2,-16960  
+FITEM,2,16962   
+FITEM,2,99998   
+!*  
+/GO 
+F,P51X,FZ,-2000 
+! SAVE, file,db,
+FINISH  
+/PREP7  
+!*  
+FINISH  
+/SOL
+!*  
+TIME,0  
+AUTOTS,1
+NSUBST, ,1000,10,1  
+KBC,0   
+!*  
+TSRES,ERASE 
+ARCLEN,1,25,0.0001, 
+ARCTRM,OFF,0,0,UX   
+!*  
+! /STATUS,SOLU
+SOLVE   
+! /REPLOT 
+LSCLEAR,ALL 
+! /REPLOT 
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       06:32:00  
+!*  
+!*  
+LSCLEAR,ALL 
+CWZDELE,5,1,''  
+! /MREP,EPLOT 
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       07:06:41  
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       07:16:46  
+! /MREP,EPLOT 
+FLST,2,2,5,ORDE,2   
+FITEM,2,1   
+FITEM,2,-2  
+ACLEAR,P51X 
+! /REPLOT 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! APLOT   
+NSEL,S,LOC,Z,323
+NSEL,S,LOC,Z,323
+! EPLOT   
+! APLOT   
+! APLOT,1, ,1,
+! /REPLOT 
+! APLOT   
+! NPLOT   
+! APLOT   
+!*  
+!*  
+! /VIEW,1,,,-1
+! /ANG,1  
+! /REP,FAST   
+!*  
+! /COM, CONTACT PAIR CREATION - START 
+CM,_NODECM,NODE 
+CM,_ELEMCM,ELEM 
+CM,_KPCM,KP 
+CM,_LINECM,LINE 
+CM,_AREACM,AREA 
+CM,_VOLUCM,VOLU 
+! /GSAV,cwz,gsav,,temp
+MP,MU,2,0.01
+MAT,2   
+R,3 
+REAL,3  
+ET,3,170
+ET,4,175
+KEYOPT,4,9,0
+KEYOPT,4,10,0   
+R,3,
+RMORE,  
+RMORE,,0
+RMORE,0 
+! Generate the target surface   
+ASEL,S,,,2  
+CM,_TARGET,AREA 
+AATT,-1,3,3,-1  
+TYPE,3  
+AMESH,ALL   
+! Create a pilot node   
+N,100016, 0,0,323   
+TSHAP,PILO  
+E,100016
+NSEL,S,,,100016 
+CM,99999,NODE   
+CMSEL,S,_NODECM 
+! Generate the contact surface  
+NSEL,NONE   
+NSEL,A,,,92 
+NSEL,A,,,200
+NSEL,A,,,201
+NSEL,A,,,202
+NSEL,A,,,203
+NSEL,A,,,204
+NSEL,A,,,205
+NSEL,A,,,206
+NSEL,A,,,207
+NSEL,A,,,208
+NSEL,A,,,209
+NSEL,A,,,210
+NSEL,A,,,211
+NSEL,A,,,212
+NSEL,A,,,213
+NSEL,A,,,214
+NSEL,A,,,215
+NSEL,A,,,216
+NSEL,A,,,217
+NSEL,A,,,218
+NSEL,A,,,219
+NSEL,A,,,220
+NSEL,A,,,221
+NSEL,A,,,222
+NSEL,A,,,223
+NSEL,A,,,224
+NSEL,A,,,225
+NSEL,A,,,226
+NSEL,A,,,227
+NSEL,A,,,228
+NSEL,A,,,229
+NSEL,A,,,230
+NSEL,A,,,231
+NSEL,A,,,232
+NSEL,A,,,233
+NSEL,A,,,234
+NSEL,A,,,235
+NSEL,A,,,236
+NSEL,A,,,237
+NSEL,A,,,238
+NSEL,A,,,239
+NSEL,A,,,240
+NSEL,A,,,241
+NSEL,A,,,242
+NSEL,A,,,243
+NSEL,A,,,244
+NSEL,A,,,245
+NSEL,A,,,246
+NSEL,A,,,247
+NSEL,A,,,248
+NSEL,A,,,249
+NSEL,A,,,250
+NSEL,A,,,251
+NSEL,A,,,252
+NSEL,A,,,253
+NSEL,A,,,254
+NSEL,A,,,255
+NSEL,A,,,256
+NSEL,A,,,257
+NSEL,A,,,258
+NSEL,A,,,259
+NSEL,A,,,260
+NSEL,A,,,261
+NSEL,A,,,262
+NSEL,A,,,263
+NSEL,A,,,264
+NSEL,A,,,265
+NSEL,A,,,266
+NSEL,A,,,267
+NSEL,A,,,268
+NSEL,A,,,269
+NSEL,A,,,270
+NSEL,A,,,271
+NSEL,A,,,272
+NSEL,A,,,273
+NSEL,A,,,274
+NSEL,A,,,275
+NSEL,A,,,276
+NSEL,A,,,277
+NSEL,A,,,278
+NSEL,A,,,279
+NSEL,A,,,280
+NSEL,A,,,281
+NSEL,A,,,282
+NSEL,A,,,283
+NSEL,A,,,284
+NSEL,A,,,285
+NSEL,A,,,286
+NSEL,A,,,287
+NSEL,A,,,288
+NSEL,A,,,289
+NSEL,A,,,8642   
+NSEL,A,,,8643   
+NSEL,A,,,8644   
+NSEL,A,,,8645   
+NSEL,A,,,8646   
+NSEL,A,,,8647   
+NSEL,A,,,8648   
+NSEL,A,,,8649   
+NSEL,A,,,8650   
+NSEL,A,,,8651   
+NSEL,A,,,8652   
+NSEL,A,,,8653   
+NSEL,A,,,8654   
+NSEL,A,,,8655   
+NSEL,A,,,8656   
+NSEL,A,,,8657   
+NSEL,A,,,8658   
+NSEL,A,,,8659   
+NSEL,A,,,8660   
+NSEL,A,,,8661   
+NSEL,A,,,8662   
+NSEL,A,,,8663   
+NSEL,A,,,8664   
+NSEL,A,,,8665   
+NSEL,A,,,8666   
+NSEL,A,,,8667   
+NSEL,A,,,8668   
+NSEL,A,,,8669   
+NSEL,A,,,8670   
+NSEL,A,,,8671   
+NSEL,A,,,8672   
+NSEL,A,,,8673   
+NSEL,A,,,8674   
+NSEL,A,,,8675   
+NSEL,A,,,8676   
+NSEL,A,,,8677   
+NSEL,A,,,8678   
+NSEL,A,,,8679   
+NSEL,A,,,8680   
+NSEL,A,,,8681   
+NSEL,A,,,8682   
+NSEL,A,,,8683   
+NSEL,A,,,8684   
+NSEL,A,,,8685   
+NSEL,A,,,8686   
+NSEL,A,,,8687   
+NSEL,A,,,8688   
+NSEL,A,,,8689   
+NSEL,A,,,8690   
+NSEL,A,,,8691   
+NSEL,A,,,8692   
+NSEL,A,,,8693   
+NSEL,A,,,8694   
+NSEL,A,,,8695   
+NSEL,A,,,8696   
+NSEL,A,,,8697   
+NSEL,A,,,8698   
+NSEL,A,,,8699   
+NSEL,A,,,8700   
+NSEL,A,,,8701   
+NSEL,A,,,8702   
+NSEL,A,,,8703   
+NSEL,A,,,8704   
+NSEL,A,,,8705   
+NSEL,A,,,8706   
+NSEL,A,,,8707   
+NSEL,A,,,8708   
+NSEL,A,,,8709   
+NSEL,A,,,8710   
+NSEL,A,,,8711   
+NSEL,A,,,8712   
+NSEL,A,,,8713   
+NSEL,A,,,8714   
+NSEL,A,,,8715   
+NSEL,A,,,8716   
+NSEL,A,,,8717   
+NSEL,A,,,8718   
+NSEL,A,,,8719   
+NSEL,A,,,8720   
+NSEL,A,,,8721   
+NSEL,A,,,8722   
+NSEL,A,,,8723   
+NSEL,A,,,8724   
+NSEL,A,,,8725   
+NSEL,A,,,8726   
+NSEL,A,,,8727   
+NSEL,A,,,8728   
+NSEL,A,,,8729   
+NSEL,A,,,8730   
+NSEL,A,,,16962  
+NSEL,A,,,99998  
+CM,_CONTACT,NODE
+TYPE,4  
+ESLN,S,0
+ESURF   
+*SET,_REALID,3  
+ALLSEL  
+ESEL,ALL
+ESEL,S,TYPE,,3  
+ESEL,A,TYPE,,4  
+ESEL,R,REAL,,3  
+ASEL,S,REAL,,3  
+! /PSYMB,ESYS,1   
+! /PNUM,TYPE,1
+! /NUM,1  
+! EPLOT   
+ESEL,ALL
+ESEL,S,TYPE,,3  
+ESEL,A,TYPE,,4  
+ESEL,R,REAL,,3  
+ASEL,S,REAL,,3  
+CMSEL,A,_NODECM 
+CMDEL,_NODECM   
+CMSEL,A,_ELEMCM 
+CMDEL,_ELEMCM   
+CMSEL,S,_KPCM   
+CMDEL,_KPCM 
+CMSEL,S,_LINECM 
+CMDEL,_LINECM   
+CMSEL,S,_AREACM 
+CMDEL,_AREACM   
+CMSEL,S,_VOLUCM 
+CMDEL,_VOLUCM   
+! /GRES,cwz,gsav  
+CMDEL,_TARGET   
+CMDEL,_CONTACT  
+! /COM, CONTACT PAIR CREATION - END   
+! /REPLOT 
+! APLOT   
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,-1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+!*  
+! /COM, CONTACT PAIR CREATION - START 
+CM,_NODECM,NODE 
+CM,_ELEMCM,ELEM 
+CM,_KPCM,KP 
+CM,_LINECM,LINE 
+CM,_AREACM,AREA 
+CM,_VOLUCM,VOLU 
+! /GSAV,cwz,gsav,,temp
+MP,MU,2,0.01
+MAT,2   
+R,4 
+REAL,4  
+ET,5,170
+ET,6,175
+KEYOPT,6,9,0
+KEYOPT,6,10,0   
+R,4,
+RMORE,  
+RMORE,,0
+RMORE,0 
+! Generate the target surface   
+ASEL,S,,,1  
+CM,_TARGET,AREA 
+AATT,-1,4,5,-1  
+TYPE,5  
+AMESH,ALL   
+! Create a pilot node   
+N,100033, 0,0,0 
+TSHAP,PILO  
+E,100033
+NSEL,S,,,100033 
+CM,99998,NODE   
+CMSEL,S,_NODECM 
+! Generate the contact surface  
+NSEL,NONE   
+NSEL,A,,,1  
+NSEL,A,,,2  
+NSEL,A,,,3  
+NSEL,A,,,4  
+NSEL,A,,,5  
+NSEL,A,,,6  
+NSEL,A,,,7  
+NSEL,A,,,8  
+NSEL,A,,,9  
+NSEL,A,,,10 
+NSEL,A,,,11 
+NSEL,A,,,12 
+NSEL,A,,,13 
+NSEL,A,,,14 
+NSEL,A,,,15 
+NSEL,A,,,16 
+NSEL,A,,,17 
+NSEL,A,,,18 
+NSEL,A,,,19 
+NSEL,A,,,20 
+NSEL,A,,,21 
+NSEL,A,,,22 
+NSEL,A,,,23 
+NSEL,A,,,24 
+NSEL,A,,,25 
+NSEL,A,,,26 
+NSEL,A,,,27 
+NSEL,A,,,28 
+NSEL,A,,,29 
+NSEL,A,,,30 
+NSEL,A,,,31 
+NSEL,A,,,32 
+NSEL,A,,,33 
+NSEL,A,,,34 
+NSEL,A,,,35 
+NSEL,A,,,36 
+NSEL,A,,,37 
+NSEL,A,,,38 
+NSEL,A,,,39 
+NSEL,A,,,40 
+NSEL,A,,,41 
+NSEL,A,,,42 
+NSEL,A,,,43 
+NSEL,A,,,44 
+NSEL,A,,,45 
+NSEL,A,,,46 
+NSEL,A,,,47 
+NSEL,A,,,48 
+NSEL,A,,,49 
+NSEL,A,,,50 
+NSEL,A,,,51 
+NSEL,A,,,52 
+NSEL,A,,,53 
+NSEL,A,,,54 
+NSEL,A,,,55 
+NSEL,A,,,56 
+NSEL,A,,,57 
+NSEL,A,,,58 
+NSEL,A,,,59 
+NSEL,A,,,60 
+NSEL,A,,,61 
+NSEL,A,,,62 
+NSEL,A,,,63 
+NSEL,A,,,64 
+NSEL,A,,,65 
+NSEL,A,,,66 
+NSEL,A,,,67 
+NSEL,A,,,68 
+NSEL,A,,,69 
+NSEL,A,,,70 
+NSEL,A,,,71 
+NSEL,A,,,72 
+NSEL,A,,,73 
+NSEL,A,,,74 
+NSEL,A,,,75 
+NSEL,A,,,76 
+NSEL,A,,,77 
+NSEL,A,,,78 
+NSEL,A,,,79 
+NSEL,A,,,80 
+NSEL,A,,,81 
+NSEL,A,,,82 
+NSEL,A,,,83 
+NSEL,A,,,84 
+NSEL,A,,,85 
+NSEL,A,,,86 
+NSEL,A,,,87 
+NSEL,A,,,88 
+NSEL,A,,,89 
+NSEL,A,,,90 
+NSEL,A,,,91 
+NSEL,A,,,8553   
+NSEL,A,,,8554   
+NSEL,A,,,8555   
+NSEL,A,,,8556   
+NSEL,A,,,8557   
+NSEL,A,,,8558   
+NSEL,A,,,8559   
+NSEL,A,,,8560   
+NSEL,A,,,8561   
+NSEL,A,,,8562   
+NSEL,A,,,8563   
+NSEL,A,,,8564   
+NSEL,A,,,8565   
+NSEL,A,,,8566   
+NSEL,A,,,8567   
+NSEL,A,,,8568   
+NSEL,A,,,8569   
+NSEL,A,,,8570   
+NSEL,A,,,8571   
+NSEL,A,,,8572   
+NSEL,A,,,8573   
+NSEL,A,,,8574   
+NSEL,A,,,8575   
+NSEL,A,,,8576   
+NSEL,A,,,8577   
+NSEL,A,,,8578   
+NSEL,A,,,8579   
+NSEL,A,,,8580   
+NSEL,A,,,8581   
+NSEL,A,,,8582   
+NSEL,A,,,8583   
+NSEL,A,,,8584   
+NSEL,A,,,8585   
+NSEL,A,,,8586   
+NSEL,A,,,8587   
+NSEL,A,,,8588   
+NSEL,A,,,8589   
+NSEL,A,,,8590   
+NSEL,A,,,8591   
+NSEL,A,,,8592   
+NSEL,A,,,8593   
+NSEL,A,,,8594   
+NSEL,A,,,8595   
+NSEL,A,,,8596   
+NSEL,A,,,8597   
+NSEL,A,,,8598   
+NSEL,A,,,8599   
+NSEL,A,,,8600   
+NSEL,A,,,8601   
+NSEL,A,,,8602   
+NSEL,A,,,8603   
+NSEL,A,,,8604   
+NSEL,A,,,8605   
+NSEL,A,,,8606   
+NSEL,A,,,8607   
+NSEL,A,,,8608   
+NSEL,A,,,8609   
+NSEL,A,,,8610   
+NSEL,A,,,8611   
+NSEL,A,,,8612   
+NSEL,A,,,8613   
+NSEL,A,,,8614   
+NSEL,A,,,8615   
+NSEL,A,,,8616   
+NSEL,A,,,8617   
+NSEL,A,,,8618   
+NSEL,A,,,8619   
+NSEL,A,,,8620   
+NSEL,A,,,8621   
+NSEL,A,,,8622   
+NSEL,A,,,8623   
+NSEL,A,,,8624   
+NSEL,A,,,8625   
+NSEL,A,,,8626   
+NSEL,A,,,8627   
+NSEL,A,,,8628   
+NSEL,A,,,8629   
+NSEL,A,,,8630   
+NSEL,A,,,8631   
+NSEL,A,,,8632   
+NSEL,A,,,8633   
+NSEL,A,,,8634   
+NSEL,A,,,8635   
+NSEL,A,,,8636   
+NSEL,A,,,8637   
+NSEL,A,,,8638   
+NSEL,A,,,8639   
+NSEL,A,,,8640   
+NSEL,A,,,8641   
+NSEL,A,,,99999  
+CM,_CONTACT,NODE
+TYPE,6  
+ESLN,S,0
+ESURF   
+*SET,_REALID,4  
+ALLSEL  
+ESEL,ALL
+ESEL,S,TYPE,,5  
+ESEL,A,TYPE,,6  
+ESEL,R,REAL,,4  
+ASEL,S,REAL,,4  
+! /PSYMB,ESYS,1   
+! /PNUM,TYPE,1
+! /NUM,1  
+! EPLOT   
+ESEL,ALL
+ESEL,S,TYPE,,5  
+ESEL,A,TYPE,,6  
+ESEL,R,REAL,,4  
+ASEL,S,REAL,,4  
+CMSEL,A,_NODECM 
+CMDEL,_NODECM   
+CMSEL,A,_ELEMCM 
+CMDEL,_ELEMCM   
+CMSEL,S,_KPCM   
+CMDEL,_KPCM 
+CMSEL,S,_LINECM 
+CMDEL,_LINECM   
+CMSEL,S,_AREACM 
+CMDEL,_AREACM   
+CMSEL,S,_VOLUCM 
+CMDEL,_VOLUCM   
+! /GRES,cwz,gsav  
+CMDEL,_TARGET   
+CMDEL,_CONTACT  
+! /COM, CONTACT PAIR CREATION - END   
+! /MREP,EPLOT 
+! APLOT   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+FLST,2,198,1,ORDE,7 
+FITEM,2,1   
+FITEM,2,-91 
+FITEM,2,8553
+FITEM,2,-8641   
+FITEM,2,99999   
+FITEM,2,100017  
+FITEM,2,-100033 
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,199,1,ORDE,9 
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,16962   
+FITEM,2,99998   
+FITEM,2,100000  
+FITEM,2,-100016 
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+FLST,2,199,1,ORDE,9 
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,16962   
+FITEM,2,99998   
+FITEM,2,100000  
+FITEM,2,-100016 
+!*  
+/GO 
+F,P51X,FY,-200000   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,2,16965,1,ORDE,5   
+FITEM,2,1   
+FITEM,2,-16928  
+FITEM,2,16962   
+FITEM,2,99998   
+FITEM,2,-100033 
+FDELE,P51X,ALL  
+FLST,2,199,1,ORDE,17
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,5831
+FITEM,2,-5832   
+FITEM,2,8642
+FITEM,2,-8730   
+FITEM,2,14183   
+FITEM,2,-14184  
+FITEM,2,16962   
+FITEM,2,99998   
+FITEM,2,100000  
+FITEM,2,-100003 
+FITEM,2,100005  
+FITEM,2,-100006 
+FITEM,2,100010  
+FITEM,2,-100016 
+!*  
+/GO 
+F,P51X,FZ,-200000   
+ARCLEN, ON  
+NLGEOM, ON  
+NSUBST, 100, 1000, 10   
+OUTRES, ALL, ALL
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+! SAVE, file,db,
+! /REPLOT,RESIZE  
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       21:41:36  
+! /REPLOT,RESIZE  
+/SOLU   
+ARCLEN, ON  
+NLGEOM, ON  
+NSUBST, 100, 1000, 10   
+OUTRES, ALL, ALL
+! /STATUS,SOLU
+SOLVE   
+! /REPLOT,RESIZE  
+FINISH  
+/PREP7  
+CWZDELE,3,1,'99999   '  
+CWZDELE,4,1,'99998   '  
+! /MREP,EPLOT 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! APLOT   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+CM,_Y,AREA  
+ASEL, , , ,       2 
+CM,_Y1,AREA 
+CMSEL,S,_Y  
+CMDELE,_Y   
+!*  
+AREVERSE,_Y1,0  
+CMDELE,_Y1  
+!*  
+! EPLOT   
+!*  
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,,1  
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+!*  
+! /COM, CONTACT PAIR CREATION - START 
+CM,_NODECM,NODE 
+CM,_ELEMCM,ELEM 
+CM,_KPCM,KP 
+CM,_LINECM,LINE 
+CM,_AREACM,AREA 
+CM,_VOLUCM,VOLU 
+! /GSAV,cwz,gsav,,temp
+MP,MU,2,0.01
+MAT,2   
+R,5 
+REAL,5  
+ET,7,170
+ET,8,175
+KEYOPT,8,9,0
+KEYOPT,8,10,0   
+R,5,
+RMORE,  
+RMORE,,0
+RMORE,0 
+! Generate the target surface   
+ASEL,S,,,2  
+CM,_TARGET,AREA 
+AATT,-1,5,7,-1  
+TYPE,7  
+AMESH,ALL   
+! Create a pilot node   
+N,100052, 0,0,323   
+TSHAP,PILO  
+E,100052
+NSEL,S,,,100052 
+CM,99998,NODE   
+CMSEL,S,_NODECM 
+! Generate the contact surface  
+NSEL,NONE   
+NSEL,A,,,92 
+NSEL,A,,,200
+NSEL,A,,,201
+NSEL,A,,,202
+NSEL,A,,,203
+NSEL,A,,,204
+NSEL,A,,,205
+NSEL,A,,,206
+NSEL,A,,,207
+NSEL,A,,,208
+NSEL,A,,,209
+NSEL,A,,,210
+NSEL,A,,,211
+NSEL,A,,,212
+NSEL,A,,,213
+NSEL,A,,,214
+NSEL,A,,,215
+NSEL,A,,,216
+NSEL,A,,,217
+NSEL,A,,,218
+NSEL,A,,,219
+NSEL,A,,,220
+NSEL,A,,,221
+NSEL,A,,,222
+NSEL,A,,,223
+NSEL,A,,,224
+NSEL,A,,,225
+NSEL,A,,,226
+NSEL,A,,,227
+NSEL,A,,,228
+NSEL,A,,,229
+NSEL,A,,,230
+NSEL,A,,,231
+NSEL,A,,,232
+NSEL,A,,,233
+NSEL,A,,,234
+NSEL,A,,,235
+NSEL,A,,,236
+NSEL,A,,,237
+NSEL,A,,,238
+NSEL,A,,,239
+NSEL,A,,,240
+NSEL,A,,,241
+NSEL,A,,,242
+NSEL,A,,,243
+NSEL,A,,,244
+NSEL,A,,,245
+NSEL,A,,,246
+NSEL,A,,,247
+NSEL,A,,,248
+NSEL,A,,,249
+NSEL,A,,,250
+NSEL,A,,,251
+NSEL,A,,,252
+NSEL,A,,,253
+NSEL,A,,,254
+NSEL,A,,,255
+NSEL,A,,,256
+NSEL,A,,,257
+NSEL,A,,,258
+NSEL,A,,,259
+NSEL,A,,,260
+NSEL,A,,,261
+NSEL,A,,,262
+NSEL,A,,,263
+NSEL,A,,,264
+NSEL,A,,,265
+NSEL,A,,,266
+NSEL,A,,,267
+NSEL,A,,,268
+NSEL,A,,,269
+NSEL,A,,,270
+NSEL,A,,,271
+NSEL,A,,,272
+NSEL,A,,,273
+NSEL,A,,,274
+NSEL,A,,,275
+NSEL,A,,,276
+NSEL,A,,,277
+NSEL,A,,,278
+NSEL,A,,,279
+NSEL,A,,,280
+NSEL,A,,,281
+NSEL,A,,,282
+NSEL,A,,,283
+NSEL,A,,,284
+NSEL,A,,,285
+NSEL,A,,,286
+NSEL,A,,,287
+NSEL,A,,,288
+NSEL,A,,,289
+NSEL,A,,,8642   
+NSEL,A,,,8643   
+NSEL,A,,,8644   
+NSEL,A,,,8645   
+NSEL,A,,,8646   
+NSEL,A,,,8647   
+NSEL,A,,,8648   
+NSEL,A,,,8649   
+NSEL,A,,,8650   
+NSEL,A,,,8651   
+NSEL,A,,,8652   
+NSEL,A,,,8653   
+NSEL,A,,,8654   
+NSEL,A,,,8655   
+NSEL,A,,,8656   
+NSEL,A,,,8657   
+NSEL,A,,,8658   
+NSEL,A,,,8659   
+NSEL,A,,,8660   
+NSEL,A,,,8661   
+NSEL,A,,,8662   
+NSEL,A,,,8663   
+NSEL,A,,,8664   
+NSEL,A,,,8665   
+NSEL,A,,,8666   
+NSEL,A,,,8667   
+NSEL,A,,,8668   
+NSEL,A,,,8669   
+NSEL,A,,,8670   
+NSEL,A,,,8671   
+NSEL,A,,,8672   
+NSEL,A,,,8673   
+NSEL,A,,,8674   
+NSEL,A,,,8675   
+NSEL,A,,,8676   
+NSEL,A,,,8677   
+NSEL,A,,,8678   
+NSEL,A,,,8679   
+NSEL,A,,,8680   
+NSEL,A,,,8681   
+NSEL,A,,,8682   
+NSEL,A,,,8683   
+NSEL,A,,,8684   
+NSEL,A,,,8685   
+NSEL,A,,,8686   
+NSEL,A,,,8687   
+NSEL,A,,,8688   
+NSEL,A,,,8689   
+NSEL,A,,,8690   
+NSEL,A,,,8691   
+NSEL,A,,,8692   
+NSEL,A,,,8693   
+NSEL,A,,,8694   
+NSEL,A,,,8695   
+NSEL,A,,,8696   
+NSEL,A,,,8697   
+NSEL,A,,,8698   
+NSEL,A,,,8699   
+NSEL,A,,,8700   
+NSEL,A,,,8701   
+NSEL,A,,,8702   
+NSEL,A,,,8703   
+NSEL,A,,,8704   
+NSEL,A,,,8705   
+NSEL,A,,,8706   
+NSEL,A,,,8707   
+NSEL,A,,,8708   
+NSEL,A,,,8709   
+NSEL,A,,,8710   
+NSEL,A,,,8711   
+NSEL,A,,,8712   
+NSEL,A,,,8713   
+NSEL,A,,,8714   
+NSEL,A,,,8715   
+NSEL,A,,,8716   
+NSEL,A,,,8717   
+NSEL,A,,,8718   
+NSEL,A,,,8719   
+NSEL,A,,,8720   
+NSEL,A,,,8721   
+NSEL,A,,,8722   
+NSEL,A,,,8723   
+NSEL,A,,,8724   
+NSEL,A,,,8725   
+NSEL,A,,,8726   
+NSEL,A,,,8727   
+NSEL,A,,,8728   
+NSEL,A,,,8729   
+NSEL,A,,,8730   
+NSEL,A,,,16962  
+NSEL,A,,,99998  
+NSEL,A,,,100016 
+CM,_CONTACT,NODE
+TYPE,8  
+ESLN,S,0
+ESURF   
+*SET,_REALID,5  
+ALLSEL  
+ESEL,ALL
+ESEL,S,TYPE,,7  
+ESEL,A,TYPE,,8  
+ESEL,R,REAL,,5  
+ASEL,S,REAL,,5  
+! /PSYMB,ESYS,1   
+! /PNUM,TYPE,1
+! /NUM,1  
+! EPLOT   
+ESEL,ALL
+ESEL,S,TYPE,,7  
+ESEL,A,TYPE,,8  
+ESEL,R,REAL,,5  
+ASEL,S,REAL,,5  
+CMSEL,A,_NODECM 
+CMDEL,_NODECM   
+CMSEL,A,_ELEMCM 
+CMDEL,_ELEMCM   
+CMSEL,S,_KPCM   
+CMDEL,_KPCM 
+CMSEL,S,_LINECM 
+CMDEL,_LINECM   
+CMSEL,S,_AREACM 
+CMDEL,_AREACM   
+CMSEL,S,_VOLUCM 
+CMDEL,_VOLUCM   
+! /GRES,cwz,gsav  
+CMDEL,_TARGET   
+CMDEL,_CONTACT  
+! /COM, CONTACT PAIR CREATION - END   
+!*  
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+!*  
+! /COM, CONTACT PAIR CREATION - START 
+CM,_NODECM,NODE 
+CM,_ELEMCM,ELEM 
+CM,_KPCM,KP 
+CM,_LINECM,LINE 
+CM,_AREACM,AREA 
+CM,_VOLUCM,VOLU 
+! /GSAV,cwz,gsav,,temp
+MP,MU,2,0.01
+MAT,2   
+R,6 
+REAL,6  
+ET,9,170
+ET,10,175   
+KEYOPT,10,9,0   
+KEYOPT,10,10,0  
+R,6,
+RMORE,  
+RMORE,,0
+RMORE,0 
+! Generate the target surface   
+ASEL,S,,,1  
+CM,_TARGET,AREA 
+AATT,-1,6,9,-1  
+TYPE,9  
+AMESH,ALL   
+! Create a pilot node   
+N,100069, 0,0,0 
+TSHAP,PILO  
+E,100069
+NSEL,S,,,100069 
+CM,99999,NODE   
+CMSEL,S,_NODECM 
+! Generate the contact surface  
+NSEL,NONE   
+NSEL,A,,,1  
+NSEL,A,,,2  
+NSEL,A,,,3  
+NSEL,A,,,4  
+NSEL,A,,,5  
+NSEL,A,,,6  
+NSEL,A,,,7  
+NSEL,A,,,8  
+NSEL,A,,,9  
+NSEL,A,,,10 
+NSEL,A,,,11 
+NSEL,A,,,12 
+NSEL,A,,,13 
+NSEL,A,,,14 
+NSEL,A,,,15 
+NSEL,A,,,16 
+NSEL,A,,,17 
+NSEL,A,,,18 
+NSEL,A,,,19 
+NSEL,A,,,20 
+NSEL,A,,,21 
+NSEL,A,,,22 
+NSEL,A,,,23 
+NSEL,A,,,24 
+NSEL,A,,,25 
+NSEL,A,,,26 
+NSEL,A,,,27 
+NSEL,A,,,28 
+NSEL,A,,,29 
+NSEL,A,,,30 
+NSEL,A,,,31 
+NSEL,A,,,32 
+NSEL,A,,,33 
+NSEL,A,,,34 
+NSEL,A,,,35 
+NSEL,A,,,36 
+NSEL,A,,,37 
+NSEL,A,,,38 
+NSEL,A,,,39 
+NSEL,A,,,40 
+NSEL,A,,,41 
+NSEL,A,,,42 
+NSEL,A,,,43 
+NSEL,A,,,44 
+NSEL,A,,,45 
+NSEL,A,,,46 
+NSEL,A,,,47 
+NSEL,A,,,48 
+NSEL,A,,,49 
+NSEL,A,,,50 
+NSEL,A,,,51 
+NSEL,A,,,52 
+NSEL,A,,,53 
+NSEL,A,,,54 
+NSEL,A,,,55 
+NSEL,A,,,56 
+NSEL,A,,,57 
+NSEL,A,,,58 
+NSEL,A,,,59 
+NSEL,A,,,60 
+NSEL,A,,,61 
+NSEL,A,,,62 
+NSEL,A,,,63 
+NSEL,A,,,64 
+NSEL,A,,,65 
+NSEL,A,,,66 
+NSEL,A,,,67 
+NSEL,A,,,68 
+NSEL,A,,,69 
+NSEL,A,,,70 
+NSEL,A,,,71 
+NSEL,A,,,72 
+NSEL,A,,,73 
+NSEL,A,,,74 
+NSEL,A,,,75 
+NSEL,A,,,76 
+NSEL,A,,,77 
+NSEL,A,,,78 
+NSEL,A,,,79 
+NSEL,A,,,80 
+NSEL,A,,,81 
+NSEL,A,,,82 
+NSEL,A,,,83 
+NSEL,A,,,84 
+NSEL,A,,,85 
+NSEL,A,,,86 
+NSEL,A,,,87 
+NSEL,A,,,88 
+NSEL,A,,,89 
+NSEL,A,,,90 
+NSEL,A,,,91 
+NSEL,A,,,8553   
+NSEL,A,,,8554   
+NSEL,A,,,8555   
+NSEL,A,,,8556   
+NSEL,A,,,8557   
+NSEL,A,,,8558   
+NSEL,A,,,8559   
+NSEL,A,,,8560   
+NSEL,A,,,8561   
+NSEL,A,,,8562   
+NSEL,A,,,8563   
+NSEL,A,,,8564   
+NSEL,A,,,8565   
+NSEL,A,,,8566   
+NSEL,A,,,8567   
+NSEL,A,,,8568   
+NSEL,A,,,8569   
+NSEL,A,,,8570   
+NSEL,A,,,8571   
+NSEL,A,,,8572   
+NSEL,A,,,8573   
+NSEL,A,,,8574   
+NSEL,A,,,8575   
+NSEL,A,,,8576   
+NSEL,A,,,8577   
+NSEL,A,,,8578   
+NSEL,A,,,8579   
+NSEL,A,,,8580   
+NSEL,A,,,8581   
+NSEL,A,,,8582   
+NSEL,A,,,8583   
+NSEL,A,,,8584   
+NSEL,A,,,8585   
+NSEL,A,,,8586   
+NSEL,A,,,8587   
+NSEL,A,,,8588   
+NSEL,A,,,8589   
+NSEL,A,,,8590   
+NSEL,A,,,8591   
+NSEL,A,,,8592   
+NSEL,A,,,8593   
+NSEL,A,,,8594   
+NSEL,A,,,8595   
+NSEL,A,,,8596   
+NSEL,A,,,8597   
+NSEL,A,,,8598   
+NSEL,A,,,8599   
+NSEL,A,,,8600   
+NSEL,A,,,8601   
+NSEL,A,,,8602   
+NSEL,A,,,8603   
+NSEL,A,,,8604   
+NSEL,A,,,8605   
+NSEL,A,,,8606   
+NSEL,A,,,8607   
+NSEL,A,,,8608   
+NSEL,A,,,8609   
+NSEL,A,,,8610   
+NSEL,A,,,8611   
+NSEL,A,,,8612   
+NSEL,A,,,8613   
+NSEL,A,,,8614   
+NSEL,A,,,8615   
+NSEL,A,,,8616   
+NSEL,A,,,8617   
+NSEL,A,,,8618   
+NSEL,A,,,8619   
+NSEL,A,,,8620   
+NSEL,A,,,8621   
+NSEL,A,,,8622   
+NSEL,A,,,8623   
+NSEL,A,,,8624   
+NSEL,A,,,8625   
+NSEL,A,,,8626   
+NSEL,A,,,8627   
+NSEL,A,,,8628   
+NSEL,A,,,8629   
+NSEL,A,,,8630   
+NSEL,A,,,8631   
+NSEL,A,,,8632   
+NSEL,A,,,8633   
+NSEL,A,,,8634   
+NSEL,A,,,8635   
+NSEL,A,,,8636   
+NSEL,A,,,8637   
+NSEL,A,,,8638   
+NSEL,A,,,8639   
+NSEL,A,,,8640   
+NSEL,A,,,8641   
+NSEL,A,,,99999  
+NSEL,A,,,100033 
+CM,_CONTACT,NODE
+TYPE,10 
+ESLN,S,0
+ESURF   
+*SET,_REALID,6  
+ALLSEL  
+ESEL,ALL
+ESEL,S,TYPE,,9  
+ESEL,A,TYPE,,10 
+ESEL,R,REAL,,6  
+ASEL,S,REAL,,6  
+! /PSYMB,ESYS,1   
+! /PNUM,TYPE,1
+! /NUM,1  
+! EPLOT   
+ESEL,ALL
+ESEL,S,TYPE,,9  
+ESEL,A,TYPE,,10 
+ESEL,R,REAL,,6  
+ASEL,S,REAL,,6  
+CMSEL,A,_NODECM 
+CMDEL,_NODECM   
+CMSEL,A,_ELEMCM 
+CMDEL,_ELEMCM   
+CMSEL,S,_KPCM   
+CMDEL,_KPCM 
+CMSEL,S,_LINECM 
+CMDEL,_LINECM   
+CMSEL,S,_AREACM 
+CMDEL,_AREACM   
+CMSEL,S,_VOLUCM 
+CMDEL,_VOLUCM   
+! /GRES,cwz,gsav  
+CMDEL,_TARGET   
+CMDEL,_CONTACT  
+! /COM, CONTACT PAIR CREATION - END   
+! /MREP,EPLOT 
+ARCLEN, ON  
+NLGEOM, ON  
+NSUBST, 100, 1000, 10   
+OUTRES, ALL, ALL
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+! SAVE, file,db,
+! SAVE, file,db,
+FINISH  
+/POST26 
+FILE,'file','rst','.'   
+/UI,COLL,1  
+NUMVAR,200  
+SOLU,191,NCMIT  
+STORE,MERGE 
+FILLDATA,191,,,,1,1 
+REALVAR,191,191 
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+NSOL,2,99998,U,Z, UZ_2, 
+STORE,MERGE 
+VARDEL,2
+!*  
+NSOL,2,99999,U,Z, UZ_2, 
+STORE,MERGE 
+VARDEL,2
+!*  
+NSOL,2,16962,U,Z, UZ_2, 
+STORE,MERGE 
+VARDEL,2
+FINISH  
+/PREP7  
+FINISH  
+/POST26 
+NUMVAR,200  
+FILE,'file','rst','.'   
+/UI,COLL,1  
+NUMVAR,200  
+SOLU,191,NCMIT  
+STORE,MERGE 
+FILLDATA,191,,,,1,1 
+REALVAR,191,191 
+FINISH  
+/PREP7  
+! /MREP,EPLOT 
+! /MREP,EPLOT 
+FINISH  
+/POST26 
+NUMVAR,200  
+FILE,'file','rst','.'   
+/UI,COLL,1  
+NUMVAR,200  
+SOLU,191,NCMIT  
+STORE,MERGE 
+FILLDATA,191,,,,1,1 
+REALVAR,191,191 
+!*  
+NSOL,2,100052,U,Z, UZ_2,
+STORE,MERGE 
+VARDEL,2
+!*  
+NSOL,2,100069,U,Z, UZ_2,
+STORE,MERGE 
+VARDEL,2
+!*  
+RFORCE,2,100069,F,Z, FZ_2   
+STORE,MERGE 
+!*  
+RFORCE,3,100052,F,Z, FZ_3   
+STORE,MERGE 
+VARDEL,3
+!*  
+NSOL,3,100052,U,Z, UZ_3,
+STORE,MERGE 
+VARDEL,3
+VARDEL,2
+FINISH  
+/PREP7  
+LSCLEAR,ALL 
+! /REPLOT 
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+FLST,2,1,1,ORDE,1   
+FITEM,2,100052  
+FLST,2,1,1,ORDE,1   
+FITEM,2,100052  
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+FLST,2,1,1,ORDE,1   
+FITEM,2,100069  
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,1,1,ORDE,1   
+FITEM,2,100052  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+!*  
+/GO 
+F,P51X,FZ,-200000   
+! SAVE, file,db,
+ARCLEN, ON  
+NLGEOM, ON  
+NSUBST, 100, 1000, 10   
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST26 
+FILE,'file','rst','.'   
+/UI,COLL,1  
+NUMVAR,200  
+SOLU,191,NCMIT  
+STORE,MERGE 
+FILLDATA,191,,,,1,1 
+REALVAR,191,191 
+! SAVE, file,db,
+NUMVAR,200  
+FILE,'file','rst','.'   
+/UI,COLL,1  
+NUMVAR,200  
+SOLU,191,NCMIT  
+STORE,MERGE 
+FILLDATA,191,,,,1,1 
+REALVAR,191,191 
+!*  
+NSOL,2,100052,U,Z, UZ_3,
+STORE,MERGE 
+!*  
+RFORCE,3,100069,F,Z, FZ_3   
+STORE,MERGE 
+! XVAR,2  
+! PLVAR,3,
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+OUTRES,ALL,ALL, 
+! /STATUS,SOLU
+SOLVE   
+! SAVE, file,db,
+FINISH  
+/POST26 
+FILE,'file','rst','.'   
+/UI,COLL,1  
+NUMVAR,200  
+SOLU,191,NCMIT  
+STORE,MERGE 
+FILLDATA,191,,,,1,1 
+REALVAR,191,191 
+!*  
+RFORCE,2,100052,F,Z, FZ_3   
+STORE,MERGE 
+VARDEL,2
+! /REPLOT,RESIZE  
+! /REPLOT,RESIZE  
+!*  
+RFORCE,2,100069,F,Z, FZ_2   
+STORE,MERGE 
+!*  
+NSOL,3,100052,U,Z, UZ_3,
+STORE,MERGE 
+! XVAR,3  
+! PLVAR,2,
+! SAVE, file,db,
+! LGWRITE,'fem-mid-2','txt','D:\fea-mid\new\',COMMENT   

@@ -1,0 +1,891 @@
+/BATCH  
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       23:46:14  
+/input,start,ans,'D:\ANSYS Inc\ANSYS Student\v252\ANSYS\apdl\'  
+!*  
+/NOPR   
+KEYW,PR_SET,1   
+KEYW,PR_STRUC,1 
+KEYW,PR_THERM,0 
+KEYW,PR_FLUID,0 
+KEYW,PR_ELMAG,0 
+KEYW,MAGNOD,0   
+KEYW,MAGEDG,0   
+KEYW,MAGHFE,0   
+KEYW,MAGELC,0   
+KEYW,PR_MULTI,0 
+/GO 
+!*  
+! /COM,   
+! /COM,Preferences for GUI filtering have been set to display:
+! /COM,  Structural   
+!*  
+/PREP7  
+!*  
+ET,1,SHELL181   
+!*  
+!*  
+MPTEMP,,,,,,,,  
+MPTEMP,1,0  
+MPDATA,EX,1,,129800 
+MPDATA,EY,1,,9100   
+MPDATA,EZ,1,,9100   
+MPDATA,PRXY,1,,0.31 
+MPDATA,PRYZ,1,,0.31 
+MPDATA,PRXZ,1,,0.02 
+MPDATA,GXY,1,,5440  
+MPDATA,GYZ,1,,5440  
+MPDATA,GXZ,1,,5440  
+!*  
+sect,1,shell,,  
+secdata, 1.56,1,0.0,3   
+secoffset,MID   
+seccontrol,,,, , , ,
+CYLIND,68, ,0,323,0,360,
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+VDELE,       1  
+! APLOT   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,2,2,5,ORDE,2   
+FITEM,2,1   
+FITEM,2,-2  
+ADELE,P51X  
+! /REPLOT 
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! APLOT   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,2,2,5,ORDE,2   
+FITEM,2,3   
+FITEM,2,-4  
+ADELE,P51X, , ,1
+! APLOT   
+! APLOT   
+! /REPLOT 
+! VPLOT   
+! EPLOT   
+CYLIND,68, ,0,323,0,360,
+VDELE,       1  
+! APLOT   
+ADELE,       1  
+! APLOT   
+! /REPLOT 
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+ADELE,       2  
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,30,XS,1  
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,XS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,-30,ZS,1 
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! SAVE, file,db,
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       00:11:51  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+FLST,5,2,4,ORDE,2   
+FITEM,5,9   
+FITEM,5,-10 
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,108, , , , ,1
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,5   
+FITEM,5,-8  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,11, , , , ,1 
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,5   
+FITEM,5,-8  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,11, , , , ,1 
+!*  
+MSHKEY,0
+FLST,5,2,5,ORDE,2   
+FITEM,5,3   
+FITEM,5,-4  
+CM,_Y,AREA  
+ASEL, , , ,P51X 
+CM,_Y1,AREA 
+CHKMSH,'AREA'   
+CMSEL,S,_Y  
+!*  
+AMESH,_Y1   
+!*  
+CMDELE,_Y   
+CMDELE,_Y1  
+CMDELE,_Y2  
+!*  
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+! SAVE, file,db,
+! /REPLOT,RESIZE  
+FLST,2,44,1,ORDE,5  
+FITEM,2,14  
+FITEM,2,122 
+FITEM,2,-143
+FITEM,2,2062
+FITEM,2,-2082   
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,24,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-13 
+FITEM,2,2051
+FITEM,2,-2061   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+! /REPLOT,RESIZE  
+FLST,2,26,1,ORDE,6  
+FITEM,2,1   
+FITEM,2,-13 
+FITEM,2,15  
+FITEM,2,144 
+FITEM,2,2051
+FITEM,2,-2061   
+!*  
+/GO 
+F,P51X,FZ,2366.22   
+!*  
+ANTYPE,0
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       00:37:58  
+! /REPLOT,RESIZE  
+FINISH  
+/PREP7  
+sect,1,shell,,  
+secdata, 0.27 ,1,75,3   
+secdata, 0.27,1,-75,3   
+secdata, 0.28 ,1,55,3   
+secdata, 0.28 ,1,-55,3  
+secdata, 0.23,1,89.6,3  
+secdata, 0.23,1,-89.6,3 
+secoffset,MID   
+seccontrol,0,0,0, 0, 1, 1, 1
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       02:19:07  
+sect,1,shell,,  
+secdata, 0.27,1,75,3
+secdata, 0.27,1,-75,3   
+secdata, 0.28,1,55,3
+secdata, 0.28,1,-55,3   
+secdata, 0.23,1,89.6,3  
+secdata, 0.23,1,-89.6,3 
+secoffset,MID   
+seccontrol,0,0,0, 0, 1, 1, 1
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,0
+!*  
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+BUCOPT,LANB,1,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/PREP7  
+LSCLEAR,ALL 
+FLST,2,3966,1,ORDE,2
+FITEM,2,1   
+FITEM,2,-3966   
+NROTAT,P51X 
+FLST,2,57,1,ORDE,16 
+FITEM,2,14  
+FITEM,2,120 
+FITEM,2,-143
+FITEM,2,249 
+FITEM,2,-250
+FITEM,2,498 
+FITEM,2,1351
+FITEM,2,1435
+FITEM,2,-1436   
+FITEM,2,2062
+FITEM,2,-2082   
+FITEM,2,2237
+FITEM,2,2319
+FITEM,2,2334
+FITEM,2,3199
+FITEM,2,3284
+!*  
+/GO 
+D,P51X,UX, , , , ,UY,UZ,ROTX,ROTZ, ,
+LSCLEAR,ALL 
+FLST,2,57,1,ORDE,16 
+FITEM,2,14  
+FITEM,2,120 
+FITEM,2,-143
+FITEM,2,249 
+FITEM,2,-250
+FITEM,2,498 
+FITEM,2,1351
+FITEM,2,1435
+FITEM,2,-1436   
+FITEM,2,2062
+FITEM,2,-2082   
+FITEM,2,2237
+FITEM,2,2319
+FITEM,2,2334
+FITEM,2,3199
+FITEM,2,3284
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,UZ,ROTX,ROTZ, ,
+LSCLEAR,ALL 
+! /REPLOT 
+FLST,2,47,1,ORDE,7  
+FITEM,2,14  
+FITEM,2,121 
+FITEM,2,-143
+FITEM,2,250 
+FITEM,2,1435
+FITEM,2,2062
+FITEM,2,-2082   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,UZ,ROTX,ROTZ, ,
+FLST,2,26,1,ORDE,6  
+FITEM,2,1   
+FITEM,2,-13 
+FITEM,2,15  
+FITEM,2,144 
+FITEM,2,2051
+FITEM,2,-2061   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTZ, , , 
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       02:59:46  
+FINISH  
+/PREP7  
+FLST,2,2,5,ORDE,2   
+FITEM,2,3   
+FITEM,2,-4  
+ACLEAR,P51X 
+! /REPLOT 
+! APLOT   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+FLST,5,2,4,ORDE,2   
+FITEM,5,9   
+FITEM,5,-10 
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1,108, , , , , , ,1
+!*  
+FLST,5,4,4,ORDE,2   
+FITEM,5,5   
+FITEM,5,-8  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1,45, , , , , , ,1 
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,1   
+FITEM,5,-4  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1,45, , , , , , ,1 
+!*  
+MSHKEY,0
+FLST,5,2,5,ORDE,2   
+FITEM,5,3   
+FITEM,5,-4  
+CM,_Y,AREA  
+ASEL, , , ,P51X 
+CM,_Y1,AREA 
+CHKMSH,'AREA'   
+CMSEL,S,_Y  
+!*  
+AMESH,_Y1   
+!*  
+CMDELE,_Y   
+CMDELE,_Y1  
+CMDELE,_Y2  
+!*  
+!*  
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1   
+! /ANG,1  
+! /REP,FAST   
+FLST,2,56,1,ORDE,2  
+FITEM,2,1   
+FITEM,2,-56 
+NROTAT,P51X 
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTZ, , , 
+FLST,2,12,1,ORDE,5  
+FITEM,2,8   
+FITEM,2,11  
+FITEM,2,-16 
+FITEM,2,38  
+FITEM,2,-42 
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,UZ,ROTX,ROTZ, ,
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+F,P51X,FZ,2366.22   
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+MXPAND,5,0,0,0,0.001,   
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+FLST,2,56,1,ORDE,2  
+FITEM,2,1   
+FITEM,2,-56 
+FDELE,P51X,ALL  
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+F,P51X,FZ,591.55
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+LOCAL, 11, 1, 0,0,0, 0,0,-90
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+TYPE,   1   
+MAT,       1
+REAL,   
+ESYS,       0   
+SECNUM,   1 
+!*  
+! /REPLOT,RESIZE  
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/PREP7  
+CSYS, 0 
+NROTAT, ALL 
+LSCLEAR,ALL 
+FLST,2,12,1,ORDE,5  
+FITEM,2,8   
+FITEM,2,11  
+FITEM,2,-16 
+FITEM,2,38  
+FITEM,2,-42 
+FLST,2,12,1,ORDE,5  
+FITEM,2,8   
+FITEM,2,11  
+FITEM,2,-16 
+FITEM,2,38  
+FITEM,2,-42 
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+F,P51X,FZ,2366.22   
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+!*  
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+FLST,2,56,1,ORDE,2  
+FITEM,2,1   
+FITEM,2,-56 
+FDELE,P51X,ALL  
+FLST,2,12,1,ORDE,4  
+FITEM,2,1   
+FITEM,2,-7  
+FITEM,2,33  
+FITEM,2,-37 
+!*  
+/GO 
+F,P51X,FZ,591.55
+FINISH  
+/SOL
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/PREP7  
+FINISH  
+/SOL
+!*  
+ANTYPE,1
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+FINISH  
+/POST1  
+SET,LIST
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+FLST,2,2,5,ORDE,2   
+FITEM,2,3   
+FITEM,2,-4  
+ACLEAR,P51X 
+FLST,2,10,4,ORDE,2  
+FITEM,2,1   
+FITEM,2,-10 
+LCLEAR,P51X 
+FLST,2,8,3,ORDE,2   
+FITEM,2,1   
+FITEM,2,-8  
+KCLEAR,P51X 
+! /REPLOT 
+! APLOT   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,2,4,ORDE,2   
+FITEM,5,9   
+FITEM,5,-10 
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,108, , , , ,1
+!*  
+! /ANG,1,-30,YS,1 
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,1   
+FITEM,5,-4  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,45, , , , ,1 
+!*  
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+! /ANG,1,30,YS,1  
+! /REP,FAST   
+FLST,5,4,4,ORDE,2   
+FITEM,5,5   
+FITEM,5,-8  
+CM,_Y,LINE  
+LSEL, , , ,P51X 
+CM,_Y1,LINE 
+CMSEL,,_Y   
+!*  
+LESIZE,_Y1, , ,45, , , , ,1 
+!*  
+MSHKEY,0
+FLST,5,2,5,ORDE,2   
+FITEM,5,3   
+FITEM,5,-4  
+CM,_Y,AREA  
+ASEL, , , ,P51X 
+CM,_Y1,AREA 
+CHKMSH,'AREA'   
+CMSEL,S,_Y  
+!*  
+AMESH,_Y1   
+!*  
+CMDELE,_Y   
+CMDELE,_Y1  
+CMDELE,_Y2  
+!*  
+! /VIEW,1,-1  
+! /ANG,1  
+! /REP,FAST   
+sect,1,shell,,  
+secdata, 0.27,1,75,3
+secdata, 0.27,1,-75,3   
+secdata, 0.28,1,55,3
+secdata, 0.28,1,-55,3   
+secdata, 0.23,1,89.6,3  
+secdata, 0.23,1,-89.6,3 
+secoffset,MID   
+seccontrol,0,0,0, 0, 1, 1, 1
+! SAVE, file,db,
+! /COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       05:50:01  
+/SOLU   
+LSCLEAR,ALL 
+FLST,2,180,1,ORDE,4 
+FITEM,2,1   
+FITEM,2,-91 
+FITEM,2,8553
+FITEM,2,-8641   
+!*  
+/GO 
+D,P51X,UX,0, , , ,UY,ROTX,ROTY,ROTZ, ,  
+FLST,2,180,1,ORDE,5 
+FITEM,2,92  
+FITEM,2,200 
+FITEM,2,-289
+FITEM,2,8642
+FITEM,2,-8730   
+!*  
+/GO 
+D,P51X,ALL,0, , , , , , , , ,   
+FLST,2,180,1,ORDE,4 
+FITEM,2,1   
+FITEM,2,-91 
+FITEM,2,8553
+FITEM,2,-8641   
+!*  
+/GO 
+F,P51X,FZ,894.43
+!*  
+ANTYPE,0
+PSTRES,1
+! /STATUS,SOLU
+SOLVE   
+!*  
+!*  
+!*  
+FINISH  
+/SOLUTION   
+ANTYPE,1
+!*  
+!*  
+BUCOPT,LANB,5,0,0,CENTER
+! /STATUS,SOLU
+SOLVE   
+!*  
+FINISH  
+/POST1  
+SET,LIST
+SET,FIRST   
+! PLDISP,1
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+SET,NEXT
+! PLDISP,1
+SET,NEXT
+! PLDISP,1
+SET,LIST
+SET,LAST
+SET,LIST,999
+SET,,, ,,, ,5   
+! PLDISP,1
+! /VIEW,1,,,1 
+! /ANG,1  
+! /REP,FAST   
+! /VIEW,1,1,2,3   
+! /ANG,1  
+! /REP,FAST   
+! LGWRITE,'midterm_script','txt ','D:\fea-mid\new\',COMMENT 
