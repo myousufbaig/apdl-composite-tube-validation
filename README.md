@@ -1,306 +1,202 @@
-# apdl-composite-tube-validation
-# ANSYS APDL validation study of CFRP tubes under compression, contrasting mathematical degradation with physical failure.
-
+# ANSYS APDL Validation: CFRP Composite Tube Buckling & Failure Analysis
 
 **Author:** M. Yousuf Baig
 
 ---
 
-## 1. Project Overview
+## Project Overview
 
-This repository contains the ANSYS APDL simulation scripts, finite element methodology, and numerical validation results for the structural analysis of carbon/epoxy filament-wound composite cylindrical tubes subjected to axial compression.
+This repository contains the complete ANSYS APDL simulation scripts, finite element methodology, and numerical validation documentation for the structural analysis of carbon/epoxy filament-wound composite cylindrical tubes under axial compression.
 
-The primary objective of this study is to evaluate the buckling and failure behavior of a thick, multi-layered CFRP tube through analytical, numerical, and experimental comparison.
+The primary objective of this study is to benchmark and validate the analytical, numerical, and experimental failure mechanisms presented in the research literature.
 
-The analysis focuses on the distinction between elastic instability predicted by finite element analysis and the physical material failure observed during experimental testing.
+> **Reference Paper:** Almeida Jr. et al., *"Buckling and post-buckling of filament wound composite tubes under axial compression: Linear, nonlinear, damage and experimental analyses."*
 
 ### Investigated Laminate Configuration
 
-* **Stacking Sequence:** `[±75/±55/±89.6]FW`
-* **Structure:** Six-ply filament-wound composite cylinder
-* **Loading:** Axial compression
-* **Primary Mechanisms:** Elastic instability, nonlinear deformation, and material shear failure
+* **Stacking Sequence:** `[±75/±55/±89.6]FW` (thick multi-layered composite cylinder)
+* **Primary Mechanism:** Contrast between elastic instability (buckling) and physical material shear failure
 
 ---
 
-## 2. Geometric and Material Specifications
+## Geometric & Material Specifications
 
-| Parameter                  |     Value | Details                             |
-| -------------------------- | --------: | ----------------------------------- |
-| Inner Radius (`R`)         |  68.00 mm | Inner cylinder radius               |
-| Outer Radius (`Ro`)        |  69.56 mm | Outer cylinder radius               |
-| Gage Length (`L`)          | 192.00 mm | Effective test length               |
-| Total Wall Thickness (`t`) |   1.56 mm | Six-ply composite wall              |
-| ±75° Ply Thickness         |   0.27 mm | Based on single-layer baseline data |
-| ±55° Ply Thickness         |   0.28 mm | Based on single-layer baseline data |
-| ±89.6° Ply Thickness       |   0.23 mm | Based on single-layer baseline data |
-
-The composite wall consists of six plies arranged according to the specified filament-wound stacking sequence.
+| Parameter                      |         Value | Details                                                 |
+| ------------------------------ | ------------: | ------------------------------------------------------- |
+| **Inner Radius (`R`)**         |  **68.00 mm** | Outer Radius `Ro = 69.56 mm`                            |
+| **Gage Length (`L`)**          | **192.00 mm** | Effective test length                                   |
+| **Total Wall Thickness (`t`)** |   **1.56 mm** | 6-ply multi-layered composite wall                      |
+| **±75° Ply Thickness**         |   **0.27 mm** | Deduced from single-layer baseline data (`0.54 mm / 2`) |
+| **±55° Ply Thickness**         |   **0.28 mm** | Deduced from single-layer baseline data (`0.56 mm / 2`) |
+| **±89.6° Ply Thickness**       |   **0.23 mm** | Deduced from single-layer baseline data (`0.46 mm / 2`) |
 
 ---
 
-## 3. Finite Element Discretization and Setup
+## Finite Element Discretization & Setup
 
-### 3.1 Mesh Density and Element Formulation
+### 1. Mesh Density & Kinematic Discretization
 
-The tube was modeled using `SHELL181` shell elements with an Equivalent Single Layer (ESL) formulation.
+* **Mesh Grid:** `108 × 45` quadrilateral shell elements
 
-The final mesh consisted of:
+  * 108 axial divisions
+  * 45 circumferential divisions
+* **Element Type:** `SHELL181`
+* **Formulation:** Equivalent Single Layer (ESL)
 
-* **Axial divisions:** 108
-* **Circumferential divisions:** 45
-* **Mesh:** `108 × 45` quadrilateral shell elements
+**Rationale:** Initial coarse meshing caused artificial mathematical locking and artificially increased the critical buckling multipliers. Refining the model to a `108 × 45` grid provided sufficient kinematic degrees of freedom for the shell to deform into the required theoretical mode shapes.
 
-Mesh density was refined during model development to improve the representation of the expected shell deformation.
+### 2. Boundary Conditions
 
-Initial coarse meshes produced artificially high critical buckling multipliers because the available degrees of freedom were insufficient to represent the required deformation pattern.
+* **Bottom Edge (`Z = 0`):** Fully clamped
 
-The final `108 × 45` mesh provided sufficient kinematic freedom for localized and global shell deformation to develop.
+  * `UX = 0`
+  * `UY = 0`
+  * `UZ = 0`
+  * `ROTX = 0`
+  * `ROTY = 0`
+  * `ROTZ = 0`
 
-### 3.2 Boundary Conditions
+* **Top Edge (`Z = L`):**
 
-#### Bottom Edge — `Z = 0`
+  * `UX = 0`
+  * `UY = 0`
+  * `UZ = Free`
 
-The bottom edge was fully constrained:
-
-```text
-UX   = 0
-UY   = 0
-UZ   = 0
-ROTX = 0
-ROTY = 0
-ROTZ = 0
-```
-
-#### Top Edge — `Z = L`
-
-The top edge was constrained in the radial and circumferential directions while remaining free in the axial direction:
-
-```text
-UX = 0
-UY = 0
-UZ = Free
-```
-
-This boundary condition permits axial compression while restricting lateral displacement at the loading edge.
+The top edge is therefore constrained radially and circumferentially while remaining free in the axial direction.
 
 ---
 
-## 4. Validation Results
+## Summary of Key Validation Results
 
-| Assessment                | Target / Reference | ANSYS APDL Result | Experimental Result | Observation                           |
-| ------------------------- | -----------------: | ----------------: | ------------------: | ------------------------------------- |
-| Linear Eigenvalue Load    |          106.48 kN |         106.48 kN |                   — | Verified using 894.43 N nodal loading |
-| Buckling Mode Shape       |     `m = 9, n = 5` |   Edge-bulge mode |                   — | Boundary-condition-dependent mode     |
-| Nonlinear Limit Load      |         Limit load |          83.55 kN |                   — | Load factor = 0.417724                |
-| Physical Material Failure |                  — |                 — |           127.59 kN | Transverse and in-plane shear failure |
+| Assessment Milestone                    | Theoretical / Paper Target |        ANSYS APDL Numerical Result | Experimental Reality | Notes & Mode Shapes                                           |
+| --------------------------------------- | -------------------------: | ---------------------------------: | -------------------: | ------------------------------------------------------------- |
+| **Linear Eigenvalue Load (Table 3)**    |                  106.48 kN |                      **106.48 kN** |                    — | Verified using 894.43 N nodal force bypass                    |
+| **Buckling Mode Shapes (Fig. 9)**       |             `m = 9, n = 5` | **Edge-Bulge ("Elephant's Foot")** |                    — | Nodal restraint artifact vs. theoretical `n = 5` global lobes |
+| **Nonlinear Limit Load (Fig. 10f)**     |                Limit Crash |                       **83.55 kN** |                    — | Load factor `0.417724` under 200 kN reference load            |
+| **Physical Material Failure (Fig. 2b)** |                          — |                                  — |        **127.59 kN** | Failure through transverse shear and in-plane shear           |
 
 ---
 
-## 5. Linear Eigenvalue Buckling
+## Key Physical & Boundary Insights
 
-The linear eigenvalue analysis was performed using:
+### 1. Theoretical Instability vs. Physical Failure
 
-```text
-ANTYPE, BUCKLE
-```
+While the linear eigenvalue analysis predicts an elastic buckling load of **106.48 kN** and the nonlinear arc-length analysis produces a limiting load of **83.55 kN**, physical testing reaches a failure load of **127.59 kN**.
 
-The resulting critical load was:
+The experimental results indicate that the thick composite tube does not undergo physical failure at the predicted elastic buckling loads. Instead, failure occurs through transverse and in-plane shear mechanisms at **127.59 kN**.
 
-**106.48 kN**
+### 2. Eigenvalue Nodal Force Bypass
 
-To obtain an eigenvalue multiplier of approximately 1.0 at the target load, an isolated nodal force of:
+To achieve an eigenvalue multiplier of approximately **1.0** at **106.48 kN**, an isolated nodal load of **894.43 N per node** was applied around the circumference.
 
-**894.43 N per node**
+This loading approach provides the required reference force for the eigenvalue calculation.
 
-was applied around the circumference.
+### 3. Boundary-Induced Mode Discrepancy
 
-The resulting eigenvalue load matched the target value of **106.48 kN**.
-
-### Buckling Mode Shape
-
-The theoretical mode shape associated with the target solution is:
+The theoretical closed-form linear solution predicts a global non-axisymmetric diamond-lobe mode:
 
 ```text
 m = 9
 n = 5
 ```
 
-corresponding to nine axial half-waves and five circumferential lobes.
+However, the APDL model produces a localized edge-bulging **"Elephant's Foot"** mode.
 
-However, the APDL model did not reproduce the global `m = 9, n = 5` deformation pattern. Instead, the calculated eigenvector exhibited a localized edge-bulging deformation near the constrained rim.
-
-This difference is attributed to the applied boundary constraints and their influence on the shell deformation near the rigid supports.
-
----
-
-## 6. Boundary-Induced Mode Discrepancy
-
-The APDL model applies:
+The radial constraints:
 
 ```text
 UX = 0
 UY = 0
 ```
 
-at the top loading edge. These constraints suppress radial displacement at the boundary.
+at the rigid rims suppress radial deformation at the boundaries. For the `1.56 mm` thick composite wall, this produces localized Poisson expansion and associated bending near the constrained region.
 
-For the relatively thick composite wall (`t = 1.56 mm`), this restriction can produce localized deformation and bending near the supported region.
+As a result, the APDL eigenvector develops localized edge bulging rather than the distributed global `n = 5` lobe pattern predicted by the theoretical solution.
 
-The resulting eigenvector develops an edge-bulging shape commonly described as an **"elephant's foot"** deformation.
-
-This differs from the global non-axisymmetric diamond-lobe pattern associated with the theoretical `m = 9, n = 5` solution.
-
-The result demonstrates the sensitivity of shell eigenvalue solutions to boundary conditions. In this model, the calculated linear eigenvector is strongly influenced by the radial constraints imposed at the rigid rim.
-
-Therefore, the eigenvalue load and mode shape should be considered separately when evaluating the agreement between the numerical model and the theoretical solution.
+This demonstrates the sensitivity of linear eigenvalue mode shapes to boundary conditions. In this model, the calculated eigenvector is strongly influenced by the boundary constraints and should therefore be distinguished from the experimentally observed material failure path.
 
 ---
 
-## 7. Nonlinear Analysis
-
-A nonlinear arc-length analysis was performed using:
-
-```text
-ARCLEN, ON
-```
-
-A reference load of **200 kN** was applied for the nonlinear solution.
-
-The analysis reached a limiting load of:
-
-**83.55 kN**
-
-with a corresponding load factor of:
-
-**0.417724**
-
-The nonlinear analysis was used to evaluate the structural response beyond the initial linear eigenvalue condition.
-
----
-
-## 8. Experimental Failure
-
-The experimental specimen reached a physical failure load of approximately:
-
-**127.59 kN**
-
-The observed failure was associated primarily with:
-
-* Transverse shear
-* In-plane shear
-
-This failure occurred above both the linear eigenvalue buckling load and the nonlinear numerical limit load.
-
----
-
-## 9. Physical and Numerical Interpretation
-
-The principal load levels obtained from the study are:
-
-```text
-Linear Eigenvalue Buckling     106.48 kN
-Nonlinear Limit Load            83.55 kN
-Experimental Failure           127.59 kN
-```
-
-The results demonstrate that the first elastic instability predicted by the numerical model does not directly correspond to the ultimate physical failure of the composite tube.
-
-The linear eigenvalue analysis predicts elastic instability at **106.48 kN**, while the nonlinear arc-length analysis reaches a limiting load of **83.55 kN**.
-
-In contrast, the experimental specimen sustained loading up to **127.59 kN** before physical material failure occurred.
-
-The experimental failure was associated with transverse and in-plane shear rather than immediate structural collapse through the numerical elastic buckling mode.
-
-This difference highlights the distinction between:
-
-1. **Elastic buckling:** A geometric instability predicted by eigenvalue analysis.
-2. **Nonlinear structural instability:** The response obtained from the nonlinear analysis.
-3. **Material failure:** The physical failure mechanism observed in the composite specimen.
-
-For thick composite tubes, these three conditions do not necessarily occur at the same load.
-
----
-
-## 10. Repository Structure
+## Repository File Structure
 
 ```text
 .
 ├── README.md
-├── ansys_apdl_script.txt
+├── scripts/
+│   ├── script(eigen and modeshape).txt
+│   └── script(nonlinear and graph).txt
 └── Validation_Plots/
-    ├── Mode_Shapes/
-    ├── Load_Deflection/
-    └── Results/
 ```
 
-### Files
+### Script Descriptions
 
-**`README.md`**
-Project documentation, finite element methodology, validation results, and analysis observations.
+**`script(eigen and modeshape).txt`**
+Stage 1: Laminate setup, mesh generation, boundary conditions, circumferential nodal loading, and linear eigenvalue buckling analysis.
 
-**`ansys_apdl_script.txt`**
-ANSYS Mechanical APDL macro containing the model definition and analysis procedures.
+**`script(nonlinear and graph).txt`**
+Stage 2: Rigid contact modeling, nonlinear Riks/arc-length analysis, and POST26 load-displacement extraction.
 
 **`Validation_Plots/`**
-Contains mode shape contours, load-deflection results, and other validation figures.
+Contains mode shape contours, load-deflection plots, and other simulation figures.
 
 ---
 
-## 11. Running the APDL Script#
+## How to Run the APDL Scripts
 
-The finite element validation pipeline is split into two sequential ANSYS APDL macro scripts:
+The finite element validation pipeline is executed in two sequential stages using the macro files in the `scripts/` directory.
 
-### Phase 1: Linear Eigenvalue Buckling Analysis
+### Stage 1: Linear Eigenvalue Buckling Analysis
+
 1. Open **ANSYS Mechanical APDL Interactive**.
-2. Set your working directory to the repository folder.
-3. Select **File → Read Input From...** and choose `01_linear_eigenvalue_buckling.txt` (or type `/INPUT, '01_linear_eigenvalue_buckling', 'txt'` in the APDL command bar).
-* **Action:** Defines orthotropic materials, $[\pm75/\pm55/\pm89.6]_{FW}$ section angles, builds geometry, applies the $108 \times 45$ mesh, applies the $894.43\text{ N}$ nodal force bypass, and solves `ANTYPE, BUCKLE`.*
+2. Set the working directory to the project folder.
+3. Select **File → Read Input From...**
+4. Select:
 
-### Phase 2: Nonlinear Arc-Length (Riks) Analysis
-1. In APDL, select **File → Read Input From...** and choose `02_nonlinear_riks_analysis.txt` (or type `/INPUT, '02_nonlinear_riks_analysis', 'txt'` in the APDL command bar).
-* **Action:** Builds upper and lower rigid compression plates, creates contact pairs (`CONTA175`/`TARGE170` with $\mu = 0.01$), activates large deflection arc-length stepping (`ARCLEN, ON`), and extracts POST26 time-history reaction forces vs. axial displacement.*
+```text
+scripts/script(eigen and modeshape).txt
+```
 
-The macro performs the main stages of the analysis, including:
+Alternatively, enter the following command in the APDL command line:
 
-* Definition of material properties
-* Definition of the Toray T700 / UF3369 epoxy material system
-* Composite section definition
-* `[±75/±55/±89.6]FW` laminate definition
-* Cylinder geometry generation
-* `108 × 45` shell meshing
-* Application of boundary conditions
-* Linear eigenvalue buckling analysis
-* Rigid loading plate setup
-* Nonlinear arc-length analysis
-* Result extraction
+```text
+/INPUT,'scripts/script(eigen and modeshape)','txt'
+```
+
+The script:
+
+* Defines the orthotropic material properties.
+* Defines the `[±75/±55/±89.6]FW` ply stacking sequence.
+* Generates the `108 × 45` shell mesh.
+* Applies the `894.43 N` circumferential nodal force bypass.
+* Applies the specified boundary conditions.
+* Executes the linear eigenvalue buckling analysis using `ANTYPE, BUCKLE`.
+
+### Stage 2: Nonlinear Arc-Length (Riks) Analysis
+
+1. In APDL, select **File → Read Input From...**
+2. Select:
+
+```text
+scripts/script(nonlinear and graph).txt
+```
+
+Alternatively, enter:
+
+```text
+/INPUT,'scripts/script(nonlinear and graph)','txt'
+```
+
+The script:
+
+* Builds the upper and lower rigid compression plates.
+* Defines `TARGE170` / `CONTA175` contact elements.
+* Applies a friction coefficient of `μ = 0.01`.
+* Enables large-deflection nonlinear analysis.
+* Enables Riks/arc-length stepping using `ARCLEN, ON`.
+* Extracts POST26 time-history reaction forces and axial displacement.
 
 ---
 
-## 12. Summary of Results
-
-| Quantity                  |                         Result |
-| ------------------------- | -----------------------------: |
-| Inner Radius              |                       68.00 mm |
-| Outer Radius              |                       69.56 mm |
-| Gage Length               |                      192.00 mm |
-| Wall Thickness            |                        1.56 mm |
-| Laminate                  |            `[±75/±55/±89.6]FW` |
-| Element Type              |                       SHELL181 |
-| Mesh                      |                       108 × 45 |
-| Target Eigenvalue Load    |                      106.48 kN |
-| APDL Eigenvalue Load      |                      106.48 kN |
-| Theoretical Mode          |                 `m = 9, n = 5` |
-| APDL Mode                 | Edge-bulge / "elephant's foot" |
-| Nonlinear Limit Load      |                       83.55 kN |
-| Experimental Failure Load |                      127.59 kN |
-| Eigenvalue Nodal Force    |                  894.43 N/node |
-| Nonlinear Reference Load  |                         200 kN |
-| Nonlinear Load Factor     |                       0.417724 |
-
----
-
-## 13. Author
+## Author
 
 **M. Yousuf Baig**
-
