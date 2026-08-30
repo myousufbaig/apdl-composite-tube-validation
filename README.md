@@ -2,8 +2,6 @@
 # ANSYS APDL validation study of CFRP tubes under compression, contrasting mathematical degradation with physical failure.
 
 
-# ANSYS APDL Validation: CFRP Composite Tube Buckling and Failure Analysis
-
 **Author:** M. Yousuf Baig
 
 ---
